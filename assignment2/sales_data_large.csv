@@ -1,0 +1,1001 @@
+order_id,customer_id,product,category,price,cost,quantity,discount,region,payment_method,date
+1,C0189,Mouse,Electronics,25,10,1,0.1,South,Debit Card,2023-05-23
+2,C0024,Mouse,Electronics,25,10,5,0.0,West,Credit Card,2023-01-31
+3,C0180,Shirt,Apparel,30,12,2,0.2,North,Debit Card,2024-10-27
+4,C0195,Watch,Accessories,100,40,4,0.05,West,Cash,2023-01-07
+5,C0196,TV,Electronics,500,450,4,0.1,East,Debit Card,2023-08-09
+6,C0089,Headphones,Electronics,150,75,1,0.0,West,Credit Card,2024-01-03
+7,C0021,Bag,Accessories,60,25,3,0.0,West,Credit Card,2024-01-23
+8,C0018,Watch,Accessories,100,40,3,0.2,East,Debit Card,2024-12-22
+9,C0098,Laptop,Electronics,1000,800,2,0.1,North,Debit Card,2023-04-14
+10,C0054,Jeans,Apparel,55,25,4,0.1,South,Cash,2023-12-30
+11,C0119,Jeans,Apparel,55,25,1,0.2,South,Debit Card,2023-06-17
+12,C0059,Shoes,Footwear,90,40,3,0.2,South,Cash,2023-02-27
+13,C0146,Laptop,Electronics,1000,800,3,0.15,East,Credit Card,2023-08-05
+14,C0068,Headphones,Electronics,150,75,2,0.15,West,UPI,2023-05-27
+15,C0103,TV,Electronics,500,450,2,0.2,East,UPI,2024-08-20
+16,C0029,Headphones,Electronics,150,75,2,0.05,West,Credit Card,2023-02-18
+17,C0153,TV,Electronics,500,450,2,0.15,North,UPI,2024-01-26
+18,C0138,Keyboard,Electronics,45,20,5,0.1,North,Credit Card,2024-11-29
+19,C0117,Jeans,Apparel,55,25,3,0.0,East,UPI,2023-06-11
+20,C0077,Laptop,Electronics,1000,800,3,0.2,South,Credit Card,2024-10-02
+21,C0139,Watch,Accessories,100,40,5,0.05,South,Cash,2023-06-15
+22,C0029,Watch,Accessories,100,40,1,0.2,East,UPI,2023-01-20
+23,C0021,Headphones,Electronics,150,75,3,0.05,North,Debit Card,2024-08-03
+24,C0122,Mouse,Electronics,25,10,4,0.0,South,Debit Card,2024-11-06
+25,C0194,Watch,Accessories,100,40,2,0.1,West,Debit Card,2024-07-06
+26,C0116,Shirt,Apparel,30,12,3,0.15,East,UPI,2024-06-13
+27,C0151,Mouse,Electronics,25,10,2,0.05,North,Cash,2023-01-22
+28,C0182,Watch,Accessories,100,40,2,0.2,South,Credit Card,2023-03-14
+29,C0132,Laptop,Electronics,1000,800,2,0.0,North,Cash,2023-03-14
+30,C0148,Shirt,Apparel,30,12,3,0.15,South,Debit Card,2024-08-07
+31,C0025,Keyboard,Electronics,45,20,2,0.15,West,Debit Card,2023-04-07
+32,C0173,Shoes,Footwear,90,40,3,0.15,West,UPI,2023-02-25
+33,C0050,Mouse,Electronics,25,10,1,0.15,East,Credit Card,2023-09-12
+34,C0072,Shirt,Apparel,30,12,5,0.15,South,UPI,2023-07-07
+35,C0167,Keyboard,Electronics,45,20,2,0.0,West,Credit Card,2023-02-21
+36,C0125,Watch,Accessories,100,40,1,0.0,South,Debit Card,2024-02-21
+37,C0001,Keyboard,Electronics,45,20,2,0.15,North,Debit Card,2024-01-24
+38,C0188,Shoes,Footwear,90,40,3,0.15,East,UPI,2024-12-14
+39,C0015,Watch,Accessories,100,40,4,0.05,South,Cash,2023-08-11
+40,C0150,Bag,Accessories,60,25,5,0.0,East,Credit Card,2023-02-21
+41,C0021,Keyboard,Electronics,45,20,5,0.2,South,Credit Card,2024-06-04
+42,C0031,TV,Electronics,500,450,1,0.2,North,Debit Card,2024-02-18
+43,C0169,Bag,Accessories,60,25,2,0.2,North,Credit Card,2024-03-05
+44,C0172,Bag,Accessories,60,25,5,0.2,East,Cash,2023-07-29
+45,C0166,Headphones,Electronics,150,75,2,0.1,West,Debit Card,2024-11-18
+46,C0160,Jeans,Apparel,55,25,4,0.1,North,Credit Card,2024-04-14
+47,C0090,Bag,Accessories,60,25,1,0.0,South,Cash,2023-05-16
+48,C0140,Mouse,Electronics,25,10,2,0.1,East,Debit Card,2024-03-24
+49,C0027,Jeans,Apparel,55,25,5,0.2,North,Cash,2024-11-10
+50,C0073,TV,Electronics,500,450,3,0.0,North,Debit Card,2023-10-06
+51,C0126,Bag,Accessories,60,25,2,0.1,South,Cash,2024-06-01
+52,C0001,Jeans,Apparel,55,25,1,0.0,West,Cash,2023-02-15
+53,C0181,Headphones,Electronics,150,75,2,0.1,South,UPI,2024-07-18
+54,C0039,Shoes,Footwear,90,40,5,0.0,North,Credit Card,2024-12-08
+55,C0011,Watch,Accessories,100,40,1,0.1,South,UPI,2023-05-11
+56,C0064,Jeans,Apparel,55,25,3,0.0,East,Debit Card,2024-11-29
+57,C0042,Mouse,Electronics,25,10,3,0.2,West,Debit Card,2023-08-31
+58,C0172,TV,Electronics,500,450,4,0.0,South,Cash,2024-02-26
+59,C0121,Shirt,Apparel,30,12,3,0.05,North,UPI,2023-02-09
+60,C0058,Shirt,Apparel,30,12,2,0.15,East,Cash,2023-08-22
+61,C0198,Laptop,Electronics,1000,800,2,0.15,East,Cash,2023-03-13
+62,C0030,Jeans,Apparel,55,25,3,0.2,West,Cash,2023-01-29
+63,C0153,Jeans,Apparel,55,25,2,0.2,East,Credit Card,2023-04-22
+64,C0148,Shoes,Footwear,90,40,3,0.1,West,Credit Card,2024-01-30
+65,C0138,Shirt,Apparel,30,12,3,0.0,West,Credit Card,2024-06-16
+66,C0081,Shirt,Apparel,30,12,3,0.15,North,Cash,2024-09-30
+67,C0104,Mouse,Electronics,25,10,3,0.2,East,UPI,2023-12-01
+68,C0098,Jeans,Apparel,55,25,5,0.05,South,UPI,2024-11-11
+69,C0001,TV,Electronics,500,450,5,0.2,East,UPI,2024-07-15
+70,C0114,Jeans,Apparel,55,25,3,0.05,West,Cash,2024-04-21
+71,C0022,Keyboard,Electronics,45,20,2,0.2,West,Debit Card,2024-11-05
+72,C0173,Jeans,Apparel,55,25,5,0.2,East,Credit Card,2023-08-29
+73,C0063,Jeans,Apparel,55,25,2,0.05,South,Credit Card,2023-02-17
+74,C0148,Keyboard,Electronics,45,20,5,0.0,West,UPI,2024-10-06
+75,C0168,Shirt,Apparel,30,12,4,0.15,West,Debit Card,2023-06-01
+76,C0133,Laptop,Electronics,1000,800,1,0.15,South,Debit Card,2024-12-13
+77,C0035,Keyboard,Electronics,45,20,1,0.2,South,Credit Card,2024-04-12
+78,C0185,Keyboard,Electronics,45,20,5,0.2,East,UPI,2024-09-19
+79,C0116,Watch,Accessories,100,40,4,0.2,West,Debit Card,2024-05-01
+80,C0113,Jeans,Apparel,55,25,2,0.1,West,Debit Card,2023-10-09
+81,C0139,Mouse,Electronics,25,10,3,0.05,East,Cash,2023-11-24
+82,C0040,Mouse,Electronics,25,10,2,0.05,South,UPI,2024-12-11
+83,C0120,Shirt,Apparel,30,12,1,0.15,West,Cash,2024-07-09
+84,C0179,Shoes,Footwear,90,40,1,0.05,West,UPI,2024-08-21
+85,C0077,Laptop,Electronics,1000,800,5,0.15,West,Credit Card,2023-12-27
+86,C0070,Shoes,Footwear,90,40,4,0.2,South,UPI,2023-08-13
+87,C0174,Shoes,Footwear,90,40,4,0.0,West,Cash,2024-11-15
+88,C0152,Shoes,Footwear,90,40,2,0.15,South,Credit Card,2024-02-08
+89,C0047,Bag,Accessories,60,25,1,0.0,West,Debit Card,2024-04-17
+90,C0084,Laptop,Electronics,1000,800,3,0.15,East,Debit Card,2024-04-10
+91,C0121,Headphones,Electronics,150,75,4,0.1,West,Cash,2023-03-25
+92,C0018,Laptop,Electronics,1000,800,5,0.0,East,Debit Card,2024-10-27
+93,C0040,Laptop,Electronics,1000,800,1,0.05,South,Credit Card,2024-09-28
+94,C0180,Shirt,Apparel,30,12,2,0.15,North,Debit Card,2024-04-21
+95,C0028,Jeans,Apparel,55,25,3,0.05,North,Debit Card,2023-11-15
+96,C0020,Bag,Accessories,60,25,1,0.1,West,UPI,2023-07-23
+97,C0011,Bag,Accessories,60,25,2,0.0,East,Credit Card,2024-08-02
+98,C0166,Headphones,Electronics,150,75,5,0.15,East,Credit Card,2024-06-02
+99,C0093,Headphones,Electronics,150,75,1,0.15,West,Credit Card,2024-03-19
+100,C0138,Keyboard,Electronics,45,20,2,0.15,South,Cash,2024-09-22
+101,C0023,Keyboard,Electronics,45,20,4,0.15,East,Cash,2023-09-09
+102,C0008,Jeans,Apparel,55,25,4,0.05,West,UPI,2023-12-11
+103,C0067,Keyboard,Electronics,45,20,3,0.05,West,Debit Card,2023-12-30
+104,C0049,Headphones,Electronics,150,75,3,0.2,East,Credit Card,2024-06-13
+105,C0122,Mouse,Electronics,25,10,2,0.15,West,Debit Card,2024-12-08
+106,C0104,Keyboard,Electronics,45,20,4,0.0,North,Cash,2023-08-15
+107,C0136,Shirt,Apparel,30,12,3,0.2,East,UPI,2024-07-20
+108,C0117,Headphones,Electronics,150,75,4,0.2,East,Cash,2024-12-20
+109,C0081,Jeans,Apparel,55,25,3,0.1,South,Credit Card,2023-07-17
+110,C0071,Mouse,Electronics,25,10,5,0.05,South,Debit Card,2024-05-10
+111,C0076,Bag,Accessories,60,25,5,0.2,East,Credit Card,2023-07-18
+112,C0137,Shirt,Apparel,30,12,3,0.05,East,Credit Card,2024-12-26
+113,C0033,TV,Electronics,500,450,3,0.0,North,Cash,2024-12-15
+114,C0113,Keyboard,Electronics,45,20,1,0.0,East,UPI,2024-05-05
+115,C0017,Headphones,Electronics,150,75,2,0.0,East,UPI,2023-04-27
+116,C0145,Shoes,Footwear,90,40,4,0.0,North,Debit Card,2023-06-02
+117,C0153,Jeans,Apparel,55,25,1,0.05,North,UPI,2024-09-12
+118,C0077,Bag,Accessories,60,25,2,0.2,West,UPI,2024-03-29
+119,C0161,Bag,Accessories,60,25,4,0.1,North,Credit Card,2023-08-01
+120,C0142,Shirt,Apparel,30,12,3,0.0,South,Debit Card,2023-06-27
+121,C0153,Mouse,Electronics,25,10,2,0.0,West,UPI,2024-12-06
+122,C0073,Keyboard,Electronics,45,20,3,0.0,South,Cash,2024-12-24
+123,C0030,Keyboard,Electronics,45,20,1,0.05,East,Debit Card,2024-03-11
+124,C0016,Watch,Accessories,100,40,2,0.05,East,Debit Card,2023-03-15
+125,C0120,TV,Electronics,500,450,3,0.2,East,UPI,2023-05-08
+126,C0154,Jeans,Apparel,55,25,4,0.1,West,UPI,2023-03-24
+127,C0059,Laptop,Electronics,1000,800,4,0.1,East,Credit Card,2023-04-04
+128,C0121,Bag,Accessories,60,25,5,0.0,East,Credit Card,2023-06-29
+129,C0126,Watch,Accessories,100,40,4,0.1,South,UPI,2024-10-12
+130,C0172,Mouse,Electronics,25,10,4,0.1,West,Cash,2023-11-25
+131,C0170,Mouse,Electronics,25,10,2,0.1,West,UPI,2023-10-23
+132,C0065,Shoes,Footwear,90,40,5,0.0,West,Credit Card,2023-11-19
+133,C0014,Headphones,Electronics,150,75,1,0.15,North,UPI,2024-02-28
+134,C0053,Shirt,Apparel,30,12,5,0.1,West,UPI,2023-02-22
+135,C0125,Jeans,Apparel,55,25,5,0.05,East,UPI,2024-12-16
+136,C0142,Mouse,Electronics,25,10,1,0.2,South,Debit Card,2023-11-15
+137,C0119,Laptop,Electronics,1000,800,5,0.15,North,Debit Card,2023-04-27
+138,C0124,Mouse,Electronics,25,10,2,0.15,East,Cash,2024-03-01
+139,C0154,Keyboard,Electronics,45,20,2,0.15,South,UPI,2023-07-15
+140,C0130,Watch,Accessories,100,40,2,0.0,East,UPI,2023-12-15
+141,C0115,Jeans,Apparel,55,25,1,0.1,East,UPI,2023-06-02
+142,C0083,Watch,Accessories,100,40,4,0.1,East,UPI,2024-04-11
+143,C0012,Shirt,Apparel,30,12,2,0.2,West,Debit Card,2024-02-25
+144,C0010,Headphones,Electronics,150,75,4,0.15,West,Debit Card,2024-05-22
+145,C0026,TV,Electronics,500,450,5,0.2,East,Credit Card,2024-03-26
+146,C0040,Watch,Accessories,100,40,4,0.0,South,UPI,2024-11-01
+147,C0021,Mouse,Electronics,25,10,4,0.1,East,UPI,2024-10-27
+148,C0010,Headphones,Electronics,150,75,5,0.15,East,UPI,2024-07-08
+149,C0112,Bag,Accessories,60,25,1,0.05,East,Debit Card,2023-04-03
+150,C0012,Mouse,Electronics,25,10,1,0.15,South,Cash,2023-01-30
+151,C0038,Headphones,Electronics,150,75,1,0.1,East,Cash,2024-03-17
+152,C0021,Shirt,Apparel,30,12,5,0.15,South,Debit Card,2023-06-29
+153,C0037,Bag,Accessories,60,25,4,0.2,South,UPI,2024-08-20
+154,C0003,Shirt,Apparel,30,12,4,0.1,West,Cash,2024-11-13
+155,C0089,Keyboard,Electronics,45,20,3,0.2,South,Credit Card,2024-03-28
+156,C0051,Bag,Accessories,60,25,3,0.15,East,UPI,2023-11-06
+157,C0092,Shoes,Footwear,90,40,4,0.0,South,UPI,2024-08-08
+158,C0003,Bag,Accessories,60,25,3,0.1,North,UPI,2023-10-09
+159,C0156,Bag,Accessories,60,25,1,0.2,West,Cash,2023-08-24
+160,C0025,Headphones,Electronics,150,75,2,0.05,East,Debit Card,2024-10-05
+161,C0024,Laptop,Electronics,1000,800,3,0.15,North,Cash,2023-05-15
+162,C0139,Jeans,Apparel,55,25,3,0.15,South,Debit Card,2023-05-16
+163,C0124,Headphones,Electronics,150,75,5,0.2,East,Debit Card,2023-09-21
+164,C0194,Jeans,Apparel,55,25,3,0.0,West,Credit Card,2023-05-25
+165,C0004,Shirt,Apparel,30,12,4,0.2,East,Credit Card,2024-02-09
+166,C0192,Jeans,Apparel,55,25,5,0.0,West,Cash,2024-11-19
+167,C0060,Jeans,Apparel,55,25,5,0.15,East,Credit Card,2024-11-22
+168,C0017,Keyboard,Electronics,45,20,1,0.2,East,Debit Card,2024-10-25
+169,C0010,Keyboard,Electronics,45,20,3,0.15,North,Debit Card,2023-02-16
+170,C0035,Jeans,Apparel,55,25,4,0.0,North,Debit Card,2024-07-04
+171,C0168,Shoes,Footwear,90,40,4,0.1,West,Debit Card,2024-02-29
+172,C0177,Mouse,Electronics,25,10,4,0.2,West,Cash,2023-02-03
+173,C0026,Headphones,Electronics,150,75,2,0.15,West,Debit Card,2024-01-07
+174,C0049,Headphones,Electronics,150,75,5,0.1,North,UPI,2023-10-10
+175,C0086,Mouse,Electronics,25,10,4,0.0,South,Credit Card,2023-02-21
+176,C0054,Shirt,Apparel,30,12,2,0.2,South,Credit Card,2024-07-21
+177,C0001,Bag,Accessories,60,25,2,0.05,East,Debit Card,2024-09-02
+178,C0170,Jeans,Apparel,55,25,2,0.05,East,Debit Card,2023-04-23
+179,C0083,Laptop,Electronics,1000,800,2,0.0,East,Debit Card,2024-08-25
+180,C0135,Laptop,Electronics,1000,800,2,0.1,North,Debit Card,2024-03-07
+181,C0152,Mouse,Electronics,25,10,1,0.15,West,Cash,2024-06-09
+182,C0134,Mouse,Electronics,25,10,4,0.2,South,Credit Card,2024-11-05
+183,C0110,Jeans,Apparel,55,25,4,0.0,North,UPI,2024-02-16
+184,C0156,Mouse,Electronics,25,10,4,0.15,North,Credit Card,2023-11-26
+185,C0153,TV,Electronics,500,450,1,0.05,East,Cash,2024-01-26
+186,C0030,Watch,Accessories,100,40,3,0.15,West,Credit Card,2024-12-19
+187,C0087,Watch,Accessories,100,40,2,0.15,West,Debit Card,2024-02-28
+188,C0081,Keyboard,Electronics,45,20,4,0.15,North,Cash,2024-03-13
+189,C0022,Jeans,Apparel,55,25,3,0.05,West,Credit Card,2023-04-04
+190,C0016,Mouse,Electronics,25,10,4,0.0,East,Debit Card,2024-07-23
+191,C0091,Bag,Accessories,60,25,5,0.2,East,Credit Card,2024-02-25
+192,C0148,Shoes,Footwear,90,40,1,0.1,East,Cash,2023-04-17
+193,C0090,Watch,Accessories,100,40,2,0.05,West,Debit Card,2023-04-21
+194,C0144,Watch,Accessories,100,40,3,0.0,East,Debit Card,2024-03-15
+195,C0047,Bag,Accessories,60,25,5,0.2,North,Cash,2023-01-30
+196,C0037,Jeans,Apparel,55,25,3,0.1,East,Credit Card,2023-07-05
+197,C0192,Bag,Accessories,60,25,4,0.0,South,Credit Card,2023-04-04
+198,C0041,Watch,Accessories,100,40,2,0.15,West,UPI,2023-12-16
+199,C0041,Headphones,Electronics,150,75,3,0.1,North,Credit Card,2023-06-09
+200,C0109,Bag,Accessories,60,25,1,0.0,East,UPI,2024-11-08
+201,C0194,Keyboard,Electronics,45,20,5,0.15,West,Cash,2023-08-09
+202,C0174,Watch,Accessories,100,40,1,0.1,West,Credit Card,2023-10-18
+203,C0102,Bag,Accessories,60,25,4,0.2,East,Credit Card,2023-08-14
+204,C0197,Bag,Accessories,60,25,1,0.0,South,Cash,2023-08-05
+205,C0128,TV,Electronics,500,450,3,0.1,East,Credit Card,2023-01-08
+206,C0144,Shoes,Footwear,90,40,2,0.05,West,Debit Card,2024-05-27
+207,C0118,Headphones,Electronics,150,75,1,0.15,North,UPI,2023-01-20
+208,C0164,Mouse,Electronics,25,10,3,0.2,West,UPI,2024-12-27
+209,C0044,Shoes,Footwear,90,40,3,0.0,West,Credit Card,2023-11-29
+210,C0063,Bag,Accessories,60,25,4,0.1,North,UPI,2023-04-19
+211,C0191,Shoes,Footwear,90,40,5,0.15,North,UPI,2023-11-14
+212,C0163,Headphones,Electronics,150,75,2,0.1,South,Credit Card,2024-06-06
+213,C0187,Mouse,Electronics,25,10,5,0.2,South,Cash,2023-12-26
+214,C0045,TV,Electronics,500,450,2,0.0,South,Cash,2023-07-22
+215,C0194,Bag,Accessories,60,25,2,0.0,South,UPI,2024-04-20
+216,C0113,Bag,Accessories,60,25,5,0.15,East,Cash,2023-06-04
+217,C0015,Mouse,Electronics,25,10,4,0.15,East,Cash,2024-08-28
+218,C0010,Headphones,Electronics,150,75,5,0.0,East,UPI,2024-04-07
+219,C0153,Laptop,Electronics,1000,800,3,0.1,North,Credit Card,2024-09-21
+220,C0167,Watch,Accessories,100,40,4,0.15,North,UPI,2024-08-08
+221,C0116,Shirt,Apparel,30,12,3,0.2,West,Debit Card,2023-03-05
+222,C0182,Mouse,Electronics,25,10,3,0.0,South,Credit Card,2023-09-11
+223,C0073,Keyboard,Electronics,45,20,4,0.2,South,Cash,2024-01-17
+224,C0085,Shoes,Footwear,90,40,4,0.1,North,Cash,2023-03-09
+225,C0155,Mouse,Electronics,25,10,5,0.15,East,Cash,2024-11-03
+226,C0168,TV,Electronics,500,450,3,0.0,South,Cash,2023-11-14
+227,C0097,Shoes,Footwear,90,40,2,0.2,North,Cash,2024-07-26
+228,C0093,Headphones,Electronics,150,75,2,0.2,North,UPI,2024-06-04
+229,C0197,Laptop,Electronics,1000,800,3,0.1,South,Debit Card,2023-12-16
+230,C0076,Keyboard,Electronics,45,20,2,0.05,South,Debit Card,2023-03-21
+231,C0034,Mouse,Electronics,25,10,5,0.2,North,Cash,2024-09-24
+232,C0198,Bag,Accessories,60,25,4,0.05,South,Debit Card,2024-12-10
+233,C0174,Bag,Accessories,60,25,2,0.15,North,UPI,2024-01-09
+234,C0137,Shirt,Apparel,30,12,4,0.2,East,UPI,2023-08-28
+235,C0147,Shirt,Apparel,30,12,3,0.15,South,Cash,2024-11-25
+236,C0052,Keyboard,Electronics,45,20,4,0.1,West,UPI,2023-06-15
+237,C0142,Bag,Accessories,60,25,2,0.1,North,UPI,2024-01-16
+238,C0070,Mouse,Electronics,25,10,5,0.0,East,Credit Card,2023-06-14
+239,C0116,Keyboard,Electronics,45,20,5,0.05,West,Credit Card,2023-08-16
+240,C0096,Headphones,Electronics,150,75,1,0.15,North,UPI,2024-05-29
+241,C0082,Shirt,Apparel,30,12,4,0.0,East,Debit Card,2023-01-29
+242,C0121,Mouse,Electronics,25,10,3,0.05,South,Credit Card,2023-10-21
+243,C0066,TV,Electronics,500,450,4,0.15,North,Credit Card,2023-01-20
+244,C0061,Shirt,Apparel,30,12,2,0.2,West,Credit Card,2023-10-23
+245,C0160,Jeans,Apparel,55,25,1,0.0,South,UPI,2024-10-16
+246,C0132,Keyboard,Electronics,45,20,1,0.0,West,Credit Card,2024-10-09
+247,C0158,Bag,Accessories,60,25,2,0.05,East,UPI,2023-01-02
+248,C0172,Headphones,Electronics,150,75,2,0.2,West,Debit Card,2024-11-11
+249,C0121,Mouse,Electronics,25,10,5,0.1,North,Credit Card,2024-02-04
+250,C0018,Laptop,Electronics,1000,800,4,0.1,East,Credit Card,2024-01-01
+251,C0091,Headphones,Electronics,150,75,2,0.0,East,Debit Card,2023-02-15
+252,C0047,Watch,Accessories,100,40,3,0.05,West,UPI,2024-10-08
+253,C0012,TV,Electronics,500,450,1,0.15,North,Cash,2023-07-26
+254,C0122,Shirt,Apparel,30,12,1,0.1,East,UPI,2024-07-10
+255,C0168,Jeans,Apparel,55,25,1,0.05,East,Cash,2023-02-18
+256,C0191,Headphones,Electronics,150,75,3,0.0,East,UPI,2024-02-14
+257,C0128,Keyboard,Electronics,45,20,4,0.1,South,UPI,2024-12-09
+258,C0111,Headphones,Electronics,150,75,5,0.1,North,UPI,2023-03-22
+259,C0021,Bag,Accessories,60,25,2,0.2,East,Cash,2023-04-16
+260,C0177,Headphones,Electronics,150,75,3,0.1,West,UPI,2023-06-20
+261,C0112,Keyboard,Electronics,45,20,3,0.15,North,Cash,2024-09-21
+262,C0192,Jeans,Apparel,55,25,1,0.0,West,Cash,2024-06-09
+263,C0018,TV,Electronics,500,450,1,0.05,West,Credit Card,2023-05-10
+264,C0040,Shirt,Apparel,30,12,3,0.1,West,Credit Card,2024-09-11
+265,C0036,Keyboard,Electronics,45,20,3,0.1,West,Credit Card,2024-08-10
+266,C0030,Watch,Accessories,100,40,3,0.15,East,Cash,2023-09-13
+267,C0199,Laptop,Electronics,1000,800,2,0.15,West,Credit Card,2023-09-26
+268,C0032,Jeans,Apparel,55,25,4,0.05,East,UPI,2023-07-24
+269,C0175,TV,Electronics,500,450,1,0.15,South,UPI,2023-03-31
+270,C0183,Headphones,Electronics,150,75,3,0.0,East,Cash,2023-06-11
+271,C0036,TV,Electronics,500,450,3,0.2,South,Credit Card,2023-07-25
+272,C0142,Shirt,Apparel,30,12,4,0.0,East,Cash,2024-04-23
+273,C0184,TV,Electronics,500,450,5,0.0,North,Cash,2024-02-12
+274,C0082,Keyboard,Electronics,45,20,5,0.15,West,Credit Card,2023-05-09
+275,C0164,Mouse,Electronics,25,10,4,0.15,East,Debit Card,2024-07-18
+276,C0133,Bag,Accessories,60,25,2,0.05,West,Credit Card,2023-05-08
+277,C0058,TV,Electronics,500,450,3,0.05,South,Cash,2024-12-27
+278,C0163,Headphones,Electronics,150,75,5,0.1,North,Cash,2023-07-21
+279,C0165,Watch,Accessories,100,40,3,0.05,East,Credit Card,2024-05-29
+280,C0160,TV,Electronics,500,450,5,0.2,South,Debit Card,2024-11-05
+281,C0012,Bag,Accessories,60,25,3,0.2,North,Credit Card,2023-03-25
+282,C0161,Bag,Accessories,60,25,3,0.05,West,Credit Card,2024-05-24
+283,C0104,Watch,Accessories,100,40,3,0.1,West,Debit Card,2024-12-02
+284,C0107,Jeans,Apparel,55,25,4,0.0,North,Debit Card,2024-03-26
+285,C0184,Keyboard,Electronics,45,20,4,0.05,East,Debit Card,2023-11-17
+286,C0144,Headphones,Electronics,150,75,3,0.15,South,Cash,2024-06-11
+287,C0116,Mouse,Electronics,25,10,3,0.05,West,Credit Card,2023-10-01
+288,C0158,Shirt,Apparel,30,12,2,0.0,North,Cash,2024-01-29
+289,C0196,Shoes,Footwear,90,40,2,0.05,East,Cash,2023-07-14
+290,C0128,TV,Electronics,500,450,4,0.2,West,UPI,2023-11-12
+291,C0150,Laptop,Electronics,1000,800,1,0.15,West,Debit Card,2023-08-09
+292,C0168,Headphones,Electronics,150,75,1,0.0,East,UPI,2024-09-03
+293,C0035,Keyboard,Electronics,45,20,3,0.2,North,Credit Card,2024-03-17
+294,C0014,Jeans,Apparel,55,25,3,0.15,East,Credit Card,2024-02-15
+295,C0099,Bag,Accessories,60,25,5,0.05,East,Cash,2023-03-17
+296,C0025,Watch,Accessories,100,40,4,0.2,East,Credit Card,2023-05-12
+297,C0155,Shoes,Footwear,90,40,3,0.1,East,Debit Card,2023-07-23
+298,C0036,Watch,Accessories,100,40,4,0.2,North,Credit Card,2023-02-09
+299,C0132,Headphones,Electronics,150,75,4,0.2,West,Debit Card,2024-09-12
+300,C0158,TV,Electronics,500,450,3,0.2,East,Debit Card,2024-02-07
+301,C0005,Jeans,Apparel,55,25,5,0.1,West,Cash,2024-05-01
+302,C0162,Headphones,Electronics,150,75,3,0.0,West,Cash,2024-12-05
+303,C0150,Laptop,Electronics,1000,800,5,0.15,East,Debit Card,2023-02-22
+304,C0063,Keyboard,Electronics,45,20,2,0.2,West,Debit Card,2024-11-28
+305,C0081,Laptop,Electronics,1000,800,5,0.0,South,Credit Card,2024-03-27
+306,C0199,Shoes,Footwear,90,40,2,0.15,South,UPI,2024-05-28
+307,C0084,Bag,Accessories,60,25,4,0.0,South,Debit Card,2024-07-28
+308,C0137,Keyboard,Electronics,45,20,5,0.15,East,Debit Card,2024-04-15
+309,C0064,Headphones,Electronics,150,75,5,0.1,East,UPI,2023-07-16
+310,C0181,Jeans,Apparel,55,25,5,0.1,South,Cash,2023-10-23
+311,C0185,Shirt,Apparel,30,12,4,0.1,West,Cash,2024-07-27
+312,C0198,Jeans,Apparel,55,25,3,0.0,West,UPI,2023-12-20
+313,C0114,TV,Electronics,500,450,3,0.0,East,Credit Card,2023-12-21
+314,C0179,Jeans,Apparel,55,25,4,0.05,South,Cash,2024-07-29
+315,C0172,Jeans,Apparel,55,25,2,0.0,South,Debit Card,2023-02-21
+316,C0085,Watch,Accessories,100,40,2,0.05,North,Credit Card,2024-02-28
+317,C0168,Keyboard,Electronics,45,20,1,0.05,North,Debit Card,2024-02-21
+318,C0166,Keyboard,Electronics,45,20,4,0.05,East,Cash,2023-10-20
+319,C0107,Laptop,Electronics,1000,800,1,0.2,South,Credit Card,2023-06-29
+320,C0010,TV,Electronics,500,450,1,0.15,West,Debit Card,2023-10-24
+321,C0117,Laptop,Electronics,1000,800,3,0.2,North,Cash,2023-10-19
+322,C0050,Watch,Accessories,100,40,5,0.15,South,UPI,2023-10-07
+323,C0004,Mouse,Electronics,25,10,3,0.05,West,Cash,2023-07-10
+324,C0164,Headphones,Electronics,150,75,3,0.2,South,Debit Card,2024-09-17
+325,C0172,Shoes,Footwear,90,40,4,0.2,East,Credit Card,2024-02-15
+326,C0002,Mouse,Electronics,25,10,2,0.05,West,Cash,2023-09-12
+327,C0078,Jeans,Apparel,55,25,4,0.05,West,Cash,2023-12-04
+328,C0061,Bag,Accessories,60,25,5,0.0,East,Cash,2024-12-10
+329,C0176,Laptop,Electronics,1000,800,1,0.15,East,Debit Card,2024-02-20
+330,C0057,Watch,Accessories,100,40,3,0.0,East,Cash,2024-09-21
+331,C0096,Shirt,Apparel,30,12,2,0.15,South,UPI,2024-09-12
+332,C0194,Shoes,Footwear,90,40,5,0.15,South,Debit Card,2024-11-27
+333,C0145,Bag,Accessories,60,25,1,0.2,West,Cash,2023-03-21
+334,C0084,Mouse,Electronics,25,10,1,0.2,South,Debit Card,2023-06-18
+335,C0131,Watch,Accessories,100,40,4,0.0,South,UPI,2023-04-04
+336,C0145,Keyboard,Electronics,45,20,1,0.15,South,UPI,2024-04-12
+337,C0066,Laptop,Electronics,1000,800,5,0.15,East,Credit Card,2024-02-10
+338,C0089,Laptop,Electronics,1000,800,2,0.2,North,Credit Card,2024-03-09
+339,C0074,Mouse,Electronics,25,10,5,0.0,North,UPI,2023-02-02
+340,C0115,Shoes,Footwear,90,40,2,0.05,West,Cash,2024-01-27
+341,C0046,Shoes,Footwear,90,40,4,0.0,South,Cash,2023-05-02
+342,C0194,Watch,Accessories,100,40,4,0.2,South,Debit Card,2023-01-04
+343,C0064,Laptop,Electronics,1000,800,3,0.15,West,UPI,2023-08-24
+344,C0009,Keyboard,Electronics,45,20,3,0.05,East,Debit Card,2023-04-26
+345,C0026,Shoes,Footwear,90,40,5,0.0,South,Debit Card,2023-03-10
+346,C0103,Bag,Accessories,60,25,1,0.15,North,Debit Card,2023-02-15
+347,C0129,Keyboard,Electronics,45,20,2,0.2,South,Credit Card,2023-05-24
+348,C0078,Jeans,Apparel,55,25,2,0.2,East,Cash,2023-08-31
+349,C0016,TV,Electronics,500,450,5,0.05,West,Cash,2023-10-09
+350,C0089,Watch,Accessories,100,40,5,0.05,West,UPI,2023-02-18
+351,C0077,Shoes,Footwear,90,40,5,0.1,West,UPI,2023-06-02
+352,C0077,Shoes,Footwear,90,40,2,0.2,West,Debit Card,2023-08-19
+353,C0136,TV,Electronics,500,450,4,0.0,West,UPI,2024-07-24
+354,C0166,TV,Electronics,500,450,4,0.05,East,Debit Card,2023-12-05
+355,C0069,Mouse,Electronics,25,10,4,0.1,North,Debit Card,2023-02-22
+356,C0195,Shoes,Footwear,90,40,5,0.2,North,Credit Card,2023-07-12
+357,C0078,Bag,Accessories,60,25,5,0.05,West,Debit Card,2023-12-07
+358,C0179,Laptop,Electronics,1000,800,2,0.05,North,UPI,2023-09-06
+359,C0098,Bag,Accessories,60,25,2,0.15,South,Cash,2023-10-17
+360,C0132,Keyboard,Electronics,45,20,5,0.1,East,Cash,2024-01-04
+361,C0095,Keyboard,Electronics,45,20,4,0.0,West,Cash,2023-07-28
+362,C0067,Headphones,Electronics,150,75,4,0.0,South,Debit Card,2023-01-17
+363,C0051,Watch,Accessories,100,40,5,0.2,West,Cash,2023-06-06
+364,C0168,Headphones,Electronics,150,75,2,0.15,South,UPI,2024-07-17
+365,C0188,Headphones,Electronics,150,75,3,0.15,West,UPI,2023-06-22
+366,C0165,Headphones,Electronics,150,75,2,0.05,West,Debit Card,2024-07-09
+367,C0106,Laptop,Electronics,1000,800,5,0.0,North,Credit Card,2023-01-07
+368,C0130,TV,Electronics,500,450,2,0.0,South,Credit Card,2023-08-12
+369,C0002,Keyboard,Electronics,45,20,3,0.0,West,UPI,2023-01-17
+370,C0185,Watch,Accessories,100,40,5,0.15,North,Credit Card,2024-06-26
+371,C0028,Jeans,Apparel,55,25,5,0.1,North,UPI,2023-07-03
+372,C0135,Mouse,Electronics,25,10,5,0.05,South,Debit Card,2024-09-26
+373,C0104,Jeans,Apparel,55,25,3,0.1,West,Credit Card,2024-01-18
+374,C0021,Keyboard,Electronics,45,20,5,0.05,South,Cash,2024-12-01
+375,C0122,Laptop,Electronics,1000,800,1,0.15,West,UPI,2024-07-19
+376,C0166,Laptop,Electronics,1000,800,1,0.05,North,UPI,2024-03-20
+377,C0178,Headphones,Electronics,150,75,5,0.0,North,Debit Card,2023-08-05
+378,C0072,Bag,Accessories,60,25,4,0.1,North,Credit Card,2024-12-01
+379,C0054,Watch,Accessories,100,40,5,0.0,South,Cash,2023-01-17
+380,C0145,Bag,Accessories,60,25,2,0.15,North,Cash,2023-06-16
+381,C0177,Shirt,Apparel,30,12,5,0.15,East,UPI,2023-05-24
+382,C0060,Mouse,Electronics,25,10,5,0.1,North,Credit Card,2024-03-23
+383,C0163,Mouse,Electronics,25,10,3,0.2,West,Cash,2023-01-31
+384,C0097,Jeans,Apparel,55,25,4,0.15,South,Cash,2024-07-20
+385,C0076,Shoes,Footwear,90,40,2,0.2,West,Credit Card,2024-09-25
+386,C0183,Shirt,Apparel,30,12,1,0.0,East,Debit Card,2024-01-25
+387,C0002,TV,Electronics,500,450,4,0.1,East,Credit Card,2023-04-04
+388,C0023,Jeans,Apparel,55,25,4,0.1,East,Credit Card,2023-05-16
+389,C0023,TV,Electronics,500,450,4,0.15,West,Credit Card,2023-01-27
+390,C0075,Headphones,Electronics,150,75,5,0.0,East,UPI,2023-01-13
+391,C0098,Shoes,Footwear,90,40,4,0.0,South,Debit Card,2024-12-02
+392,C0038,TV,Electronics,500,450,2,0.1,East,Cash,2024-05-19
+393,C0124,Mouse,Electronics,25,10,2,0.15,East,UPI,2023-11-03
+394,C0158,Mouse,Electronics,25,10,3,0.1,South,UPI,2024-08-31
+395,C0102,Shirt,Apparel,30,12,4,0.0,South,Cash,2023-01-07
+396,C0111,Headphones,Electronics,150,75,5,0.15,East,UPI,2023-12-09
+397,C0081,Bag,Accessories,60,25,2,0.1,East,Debit Card,2024-05-05
+398,C0063,TV,Electronics,500,450,4,0.1,East,UPI,2024-08-12
+399,C0145,Headphones,Electronics,150,75,4,0.1,West,Cash,2023-04-27
+400,C0182,Shirt,Apparel,30,12,5,0.2,South,Credit Card,2024-04-17
+401,C0128,Shirt,Apparel,30,12,4,0.1,North,UPI,2024-11-20
+402,C0097,TV,Electronics,500,450,3,0.05,East,Debit Card,2024-03-09
+403,C0130,Mouse,Electronics,25,10,4,0.2,West,UPI,2024-07-01
+404,C0197,Shoes,Footwear,90,40,5,0.0,East,Credit Card,2023-04-22
+405,C0111,Shirt,Apparel,30,12,3,0.05,North,UPI,2023-12-06
+406,C0192,Mouse,Electronics,25,10,1,0.0,East,Debit Card,2024-06-06
+407,C0101,Watch,Accessories,100,40,5,0.2,South,UPI,2024-01-19
+408,C0124,Keyboard,Electronics,45,20,5,0.2,South,Cash,2023-01-26
+409,C0090,Mouse,Electronics,25,10,3,0.15,North,Credit Card,2023-05-26
+410,C0122,Jeans,Apparel,55,25,3,0.15,South,UPI,2023-12-23
+411,C0012,Mouse,Electronics,25,10,4,0.15,East,Credit Card,2023-11-04
+412,C0133,Mouse,Electronics,25,10,1,0.1,North,Debit Card,2023-09-07
+413,C0060,TV,Electronics,500,450,5,0.05,East,UPI,2024-04-18
+414,C0189,Shoes,Footwear,90,40,2,0.05,West,UPI,2023-01-30
+415,C0181,Bag,Accessories,60,25,2,0.15,West,UPI,2023-01-05
+416,C0048,Shirt,Apparel,30,12,2,0.1,North,Credit Card,2024-07-03
+417,C0172,Headphones,Electronics,150,75,3,0.05,West,Credit Card,2023-09-26
+418,C0030,Keyboard,Electronics,45,20,5,0.1,West,UPI,2024-08-24
+419,C0152,Headphones,Electronics,150,75,3,0.15,South,Cash,2024-09-21
+420,C0030,Mouse,Electronics,25,10,2,0.1,North,Debit Card,2023-11-09
+421,C0036,TV,Electronics,500,450,3,0.05,West,UPI,2024-09-02
+422,C0138,Bag,Accessories,60,25,4,0.15,South,UPI,2024-10-12
+423,C0048,TV,Electronics,500,450,5,0.05,West,Cash,2023-05-24
+424,C0125,Headphones,Electronics,150,75,4,0.2,North,Cash,2023-01-10
+425,C0126,TV,Electronics,500,450,2,0.15,West,UPI,2024-12-02
+426,C0008,Shoes,Footwear,90,40,4,0.15,South,Credit Card,2024-08-01
+427,C0074,Shirt,Apparel,30,12,3,0.0,East,Debit Card,2024-07-04
+428,C0030,TV,Electronics,500,450,4,0.2,West,Credit Card,2024-08-09
+429,C0056,Jeans,Apparel,55,25,5,0.1,North,UPI,2024-07-13
+430,C0068,Shoes,Footwear,90,40,1,0.05,East,Credit Card,2024-04-05
+431,C0189,Headphones,Electronics,150,75,1,0.15,North,Debit Card,2023-08-03
+432,C0036,Bag,Accessories,60,25,3,0.2,West,Debit Card,2024-09-22
+433,C0138,Shirt,Apparel,30,12,2,0.0,East,Cash,2024-09-03
+434,C0174,TV,Electronics,500,450,3,0.1,East,Cash,2024-06-10
+435,C0033,Mouse,Electronics,25,10,2,0.15,North,Cash,2024-11-02
+436,C0101,TV,Electronics,500,450,2,0.05,East,Debit Card,2024-11-23
+437,C0116,Keyboard,Electronics,45,20,2,0.2,East,UPI,2024-01-20
+438,C0125,Mouse,Electronics,25,10,1,0.15,East,Cash,2024-04-10
+439,C0171,Headphones,Electronics,150,75,5,0.0,North,UPI,2024-10-12
+440,C0055,Headphones,Electronics,150,75,1,0.2,West,Debit Card,2024-03-15
+441,C0148,Keyboard,Electronics,45,20,3,0.1,East,Cash,2024-07-14
+442,C0026,TV,Electronics,500,450,5,0.15,East,Credit Card,2023-02-17
+443,C0001,Keyboard,Electronics,45,20,1,0.0,South,UPI,2024-04-12
+444,C0024,Shoes,Footwear,90,40,2,0.05,East,Debit Card,2023-10-08
+445,C0102,Headphones,Electronics,150,75,3,0.0,East,Debit Card,2023-02-23
+446,C0055,Jeans,Apparel,55,25,2,0.15,North,Credit Card,2023-01-02
+447,C0003,Keyboard,Electronics,45,20,1,0.05,South,UPI,2023-01-10
+448,C0059,Headphones,Electronics,150,75,1,0.15,South,UPI,2023-03-14
+449,C0077,Shoes,Footwear,90,40,1,0.0,North,Cash,2024-01-12
+450,C0145,TV,Electronics,500,450,4,0.05,South,Credit Card,2024-06-27
+451,C0161,Laptop,Electronics,1000,800,5,0.05,West,Cash,2023-08-07
+452,C0026,TV,Electronics,500,450,4,0.2,West,Debit Card,2023-03-30
+453,C0081,TV,Electronics,500,450,1,0.2,West,Cash,2024-03-15
+454,C0154,TV,Electronics,500,450,2,0.1,North,Debit Card,2024-07-20
+455,C0133,Bag,Accessories,60,25,5,0.1,North,Cash,2023-07-30
+456,C0014,Bag,Accessories,60,25,5,0.05,West,Cash,2024-10-23
+457,C0164,Shirt,Apparel,30,12,4,0.15,North,Debit Card,2024-05-26
+458,C0034,Bag,Accessories,60,25,1,0.2,North,Cash,2023-11-21
+459,C0198,Shoes,Footwear,90,40,5,0.15,East,Debit Card,2024-04-27
+460,C0056,Mouse,Electronics,25,10,1,0.2,North,Credit Card,2023-09-26
+461,C0180,Laptop,Electronics,1000,800,1,0.15,East,UPI,2024-03-09
+462,C0080,Shoes,Footwear,90,40,1,0.2,South,Cash,2023-03-27
+463,C0151,Mouse,Electronics,25,10,5,0.05,South,Cash,2024-02-05
+464,C0023,Mouse,Electronics,25,10,3,0.15,South,Credit Card,2023-09-08
+465,C0190,Shoes,Footwear,90,40,1,0.15,North,Cash,2024-11-13
+466,C0128,TV,Electronics,500,450,1,0.0,South,Credit Card,2023-06-17
+467,C0033,Headphones,Electronics,150,75,5,0.2,East,Debit Card,2024-01-16
+468,C0135,Jeans,Apparel,55,25,1,0.0,East,UPI,2023-10-06
+469,C0131,Mouse,Electronics,25,10,3,0.2,North,UPI,2024-04-11
+470,C0066,Headphones,Electronics,150,75,1,0.15,South,Cash,2023-06-11
+471,C0004,Mouse,Electronics,25,10,5,0.0,South,Credit Card,2023-02-15
+472,C0046,Shirt,Apparel,30,12,1,0.15,East,UPI,2023-06-03
+473,C0107,Laptop,Electronics,1000,800,5,0.15,South,Cash,2023-09-12
+474,C0173,Headphones,Electronics,150,75,3,0.0,East,Credit Card,2024-05-29
+475,C0120,Laptop,Electronics,1000,800,2,0.05,North,UPI,2023-03-12
+476,C0095,Jeans,Apparel,55,25,3,0.1,North,UPI,2023-01-09
+477,C0095,Shirt,Apparel,30,12,3,0.2,East,Debit Card,2024-04-20
+478,C0105,Bag,Accessories,60,25,4,0.05,South,Debit Card,2023-01-07
+479,C0001,Laptop,Electronics,1000,800,2,0.2,East,Credit Card,2023-12-10
+480,C0126,Shoes,Footwear,90,40,3,0.0,South,Debit Card,2024-03-05
+481,C0134,Laptop,Electronics,1000,800,2,0.1,North,Credit Card,2023-08-26
+482,C0035,Shoes,Footwear,90,40,3,0.15,North,Credit Card,2024-06-01
+483,C0034,Shoes,Footwear,90,40,1,0.2,North,UPI,2024-11-09
+484,C0189,Shirt,Apparel,30,12,3,0.1,East,UPI,2024-12-18
+485,C0052,Headphones,Electronics,150,75,3,0.15,East,Debit Card,2023-03-18
+486,C0116,TV,Electronics,500,450,5,0.0,South,Credit Card,2023-06-18
+487,C0116,Keyboard,Electronics,45,20,3,0.15,North,Cash,2023-08-01
+488,C0176,Jeans,Apparel,55,25,4,0.1,North,Credit Card,2023-06-11
+489,C0024,Jeans,Apparel,55,25,5,0.0,South,Cash,2023-06-01
+490,C0045,Shirt,Apparel,30,12,3,0.15,North,Cash,2023-09-24
+491,C0027,Laptop,Electronics,1000,800,4,0.15,South,Credit Card,2024-04-18
+492,C0051,TV,Electronics,500,450,1,0.0,North,Debit Card,2023-05-14
+493,C0017,Shoes,Footwear,90,40,3,0.0,East,Credit Card,2023-01-23
+494,C0011,Shirt,Apparel,30,12,4,0.05,North,Cash,2023-05-06
+495,C0008,Keyboard,Electronics,45,20,1,0.05,West,UPI,2024-05-23
+496,C0071,Shoes,Footwear,90,40,4,0.05,East,Debit Card,2023-07-11
+497,C0076,Jeans,Apparel,55,25,4,0.05,North,Debit Card,2024-10-24
+498,C0072,Keyboard,Electronics,45,20,4,0.2,West,Credit Card,2023-03-31
+499,C0140,Shoes,Footwear,90,40,2,0.15,South,Debit Card,2024-10-07
+500,C0145,Laptop,Electronics,1000,800,4,0.1,West,UPI,2023-12-19
+501,C0082,Watch,Accessories,100,40,3,0.15,East,Debit Card,2023-01-27
+502,C0136,Bag,Accessories,60,25,2,0.0,East,Credit Card,2024-04-28
+503,C0169,Headphones,Electronics,150,75,5,0.05,South,Credit Card,2023-09-11
+504,C0100,Shirt,Apparel,30,12,3,0.2,North,Debit Card,2024-08-12
+505,C0092,Headphones,Electronics,150,75,2,0.05,South,Cash,2024-12-15
+506,C0139,Bag,Accessories,60,25,1,0.1,South,Debit Card,2024-05-19
+507,C0060,Jeans,Apparel,55,25,2,0.15,North,Credit Card,2023-02-27
+508,C0158,Bag,Accessories,60,25,2,0.0,West,Credit Card,2023-12-06
+509,C0006,Shirt,Apparel,30,12,2,0.1,South,Cash,2023-03-02
+510,C0096,TV,Electronics,500,450,5,0.05,North,Cash,2023-03-16
+511,C0035,Shoes,Footwear,90,40,5,0.0,East,Cash,2023-11-27
+512,C0144,TV,Electronics,500,450,4,0.15,East,Debit Card,2024-12-25
+513,C0188,Bag,Accessories,60,25,3,0.05,South,UPI,2023-11-11
+514,C0009,Jeans,Apparel,55,25,2,0.05,North,UPI,2024-08-04
+515,C0037,TV,Electronics,500,450,5,0.1,South,Credit Card,2024-05-23
+516,C0163,Headphones,Electronics,150,75,1,0.05,East,Cash,2023-06-21
+517,C0064,Mouse,Electronics,25,10,3,0.15,North,Cash,2023-08-03
+518,C0099,Mouse,Electronics,25,10,3,0.1,North,Credit Card,2023-02-19
+519,C0090,Keyboard,Electronics,45,20,4,0.05,West,UPI,2024-01-23
+520,C0116,Watch,Accessories,100,40,4,0.0,West,Debit Card,2023-06-16
+521,C0027,Mouse,Electronics,25,10,1,0.1,North,Cash,2023-09-25
+522,C0141,Mouse,Electronics,25,10,3,0.05,West,Debit Card,2023-03-18
+523,C0168,Mouse,Electronics,25,10,3,0.2,West,Credit Card,2024-03-17
+524,C0085,TV,Electronics,500,450,5,0.15,South,Credit Card,2023-04-14
+525,C0061,Shirt,Apparel,30,12,2,0.15,East,Cash,2023-11-01
+526,C0093,Mouse,Electronics,25,10,1,0.15,West,Debit Card,2023-02-25
+527,C0025,Laptop,Electronics,1000,800,4,0.0,East,UPI,2023-07-24
+528,C0030,Laptop,Electronics,1000,800,2,0.05,East,Credit Card,2024-04-29
+529,C0165,Jeans,Apparel,55,25,4,0.15,West,Cash,2023-04-04
+530,C0048,Watch,Accessories,100,40,4,0.05,East,UPI,2024-01-14
+531,C0058,Keyboard,Electronics,45,20,1,0.1,West,UPI,2023-09-27
+532,C0172,Jeans,Apparel,55,25,5,0.0,South,Credit Card,2023-03-29
+533,C0134,Headphones,Electronics,150,75,5,0.15,South,Credit Card,2024-02-01
+534,C0021,Shoes,Footwear,90,40,5,0.15,South,UPI,2023-11-03
+535,C0045,Shoes,Footwear,90,40,1,0.2,South,Credit Card,2024-04-04
+536,C0021,TV,Electronics,500,450,2,0.05,South,Credit Card,2024-03-09
+537,C0023,Shoes,Footwear,90,40,2,0.05,East,Cash,2023-03-10
+538,C0118,Shoes,Footwear,90,40,5,0.15,East,Cash,2024-06-16
+539,C0039,Laptop,Electronics,1000,800,5,0.2,West,Credit Card,2024-02-29
+540,C0200,TV,Electronics,500,450,5,0.2,North,Credit Card,2024-07-30
+541,C0099,Mouse,Electronics,25,10,3,0.2,East,UPI,2023-09-28
+542,C0071,Keyboard,Electronics,45,20,5,0.2,West,Credit Card,2023-06-26
+543,C0085,Shoes,Footwear,90,40,2,0.2,West,Credit Card,2024-02-10
+544,C0087,Shirt,Apparel,30,12,1,0.15,East,Cash,2023-01-21
+545,C0035,Jeans,Apparel,55,25,3,0.1,West,Credit Card,2023-08-22
+546,C0166,Jeans,Apparel,55,25,4,0.1,East,UPI,2024-09-11
+547,C0195,Mouse,Electronics,25,10,2,0.15,South,UPI,2024-05-11
+548,C0182,Watch,Accessories,100,40,3,0.0,South,Credit Card,2023-11-15
+549,C0052,Watch,Accessories,100,40,4,0.05,North,Debit Card,2023-07-17
+550,C0181,Laptop,Electronics,1000,800,2,0.0,West,Credit Card,2024-01-05
+551,C0032,Shirt,Apparel,30,12,3,0.1,West,UPI,2024-10-12
+552,C0122,Laptop,Electronics,1000,800,2,0.1,West,UPI,2023-07-01
+553,C0192,Bag,Accessories,60,25,5,0.1,East,Debit Card,2023-09-22
+554,C0147,Mouse,Electronics,25,10,3,0.0,West,Credit Card,2023-06-16
+555,C0105,Shirt,Apparel,30,12,2,0.05,South,Cash,2024-10-29
+556,C0045,Watch,Accessories,100,40,1,0.0,West,Debit Card,2024-10-24
+557,C0182,Bag,Accessories,60,25,1,0.05,East,Cash,2024-12-30
+558,C0056,Jeans,Apparel,55,25,4,0.15,East,UPI,2023-09-16
+559,C0131,Keyboard,Electronics,45,20,3,0.2,West,Credit Card,2023-01-08
+560,C0028,Headphones,Electronics,150,75,5,0.2,East,Cash,2024-12-01
+561,C0067,Keyboard,Electronics,45,20,1,0.1,East,Cash,2023-10-11
+562,C0104,Jeans,Apparel,55,25,2,0.05,South,Credit Card,2024-09-06
+563,C0108,Headphones,Electronics,150,75,2,0.0,West,Cash,2023-09-23
+564,C0057,Shoes,Footwear,90,40,4,0.0,South,Cash,2024-12-31
+565,C0143,Watch,Accessories,100,40,4,0.1,East,Debit Card,2024-11-04
+566,C0186,TV,Electronics,500,450,3,0.0,West,Debit Card,2023-09-22
+567,C0058,Watch,Accessories,100,40,2,0.1,North,Debit Card,2023-12-30
+568,C0076,Jeans,Apparel,55,25,4,0.1,East,Cash,2024-08-22
+569,C0050,Keyboard,Electronics,45,20,1,0.15,North,Credit Card,2024-04-28
+570,C0039,Watch,Accessories,100,40,1,0.15,East,UPI,2023-02-25
+571,C0081,TV,Electronics,500,450,2,0.1,West,UPI,2023-05-27
+572,C0163,TV,Electronics,500,450,1,0.15,East,Debit Card,2023-11-17
+573,C0148,Laptop,Electronics,1000,800,1,0.15,East,Debit Card,2023-06-22
+574,C0110,TV,Electronics,500,450,4,0.0,South,UPI,2024-10-10
+575,C0137,Shoes,Footwear,90,40,4,0.15,West,Credit Card,2023-02-08
+576,C0174,Shirt,Apparel,30,12,3,0.0,East,Debit Card,2023-01-19
+577,C0027,Laptop,Electronics,1000,800,2,0.05,East,Cash,2023-05-13
+578,C0012,Shoes,Footwear,90,40,5,0.2,East,Debit Card,2023-03-08
+579,C0035,Jeans,Apparel,55,25,3,0.15,East,UPI,2024-12-04
+580,C0005,Headphones,Electronics,150,75,4,0.1,South,Debit Card,2024-02-18
+581,C0130,Shirt,Apparel,30,12,2,0.05,South,Credit Card,2024-08-26
+582,C0066,TV,Electronics,500,450,1,0.1,North,UPI,2024-10-17
+583,C0006,Watch,Accessories,100,40,5,0.0,North,Credit Card,2024-10-31
+584,C0141,Laptop,Electronics,1000,800,1,0.15,West,UPI,2023-05-07
+585,C0108,Jeans,Apparel,55,25,4,0.05,South,Credit Card,2023-11-05
+586,C0131,Mouse,Electronics,25,10,5,0.1,South,UPI,2023-04-18
+587,C0051,Bag,Accessories,60,25,1,0.1,North,Credit Card,2024-05-24
+588,C0105,Bag,Accessories,60,25,2,0.1,South,Cash,2024-12-21
+589,C0124,Jeans,Apparel,55,25,2,0.0,West,Debit Card,2024-12-05
+590,C0147,Headphones,Electronics,150,75,2,0.0,North,Credit Card,2023-04-24
+591,C0165,Keyboard,Electronics,45,20,2,0.0,North,Credit Card,2023-09-20
+592,C0026,Shirt,Apparel,30,12,4,0.1,East,UPI,2023-02-21
+593,C0190,TV,Electronics,500,450,1,0.1,East,Cash,2024-03-12
+594,C0166,Mouse,Electronics,25,10,1,0.0,North,Debit Card,2024-11-10
+595,C0096,TV,Electronics,500,450,3,0.1,West,Cash,2023-04-06
+596,C0070,Headphones,Electronics,150,75,2,0.0,West,UPI,2024-04-12
+597,C0179,Shoes,Footwear,90,40,4,0.15,South,Credit Card,2023-05-16
+598,C0174,Laptop,Electronics,1000,800,2,0.0,West,UPI,2024-08-05
+599,C0008,Keyboard,Electronics,45,20,2,0.2,West,Cash,2024-09-18
+600,C0012,TV,Electronics,500,450,4,0.15,North,UPI,2024-03-27
+601,C0087,Mouse,Electronics,25,10,3,0.1,North,Debit Card,2024-11-16
+602,C0187,Watch,Accessories,100,40,5,0.2,North,UPI,2024-11-08
+603,C0157,Shirt,Apparel,30,12,4,0.1,West,Debit Card,2024-07-25
+604,C0020,Laptop,Electronics,1000,800,1,0.05,West,UPI,2023-06-19
+605,C0130,Keyboard,Electronics,45,20,3,0.05,East,Cash,2023-02-21
+606,C0118,Shirt,Apparel,30,12,5,0.15,West,Debit Card,2023-03-22
+607,C0081,Keyboard,Electronics,45,20,5,0.15,North,UPI,2024-04-02
+608,C0010,Mouse,Electronics,25,10,4,0.0,North,UPI,2024-02-27
+609,C0144,Watch,Accessories,100,40,5,0.0,North,Cash,2024-06-04
+610,C0117,Shirt,Apparel,30,12,4,0.1,East,Credit Card,2023-08-17
+611,C0030,Headphones,Electronics,150,75,5,0.2,West,Cash,2024-04-08
+612,C0075,Mouse,Electronics,25,10,2,0.0,East,Cash,2024-10-10
+613,C0127,Watch,Accessories,100,40,5,0.1,North,Credit Card,2023-06-18
+614,C0031,TV,Electronics,500,450,4,0.0,East,Debit Card,2023-07-12
+615,C0194,Shoes,Footwear,90,40,2,0.15,South,Cash,2023-04-21
+616,C0169,Shoes,Footwear,90,40,1,0.2,North,UPI,2024-04-13
+617,C0189,Bag,Accessories,60,25,5,0.05,West,Credit Card,2024-06-27
+618,C0149,Laptop,Electronics,1000,800,5,0.15,West,Debit Card,2024-12-09
+619,C0099,TV,Electronics,500,450,2,0.0,West,Cash,2024-05-31
+620,C0076,Shoes,Footwear,90,40,5,0.05,East,UPI,2023-12-18
+621,C0141,Keyboard,Electronics,45,20,2,0.05,West,Cash,2024-12-19
+622,C0183,Headphones,Electronics,150,75,5,0.05,South,Debit Card,2024-10-01
+623,C0030,Jeans,Apparel,55,25,3,0.05,South,Cash,2024-12-28
+624,C0004,Headphones,Electronics,150,75,5,0.15,West,Cash,2024-03-08
+625,C0172,Watch,Accessories,100,40,1,0.0,West,Debit Card,2023-02-24
+626,C0065,Laptop,Electronics,1000,800,2,0.1,South,Cash,2024-11-30
+627,C0116,TV,Electronics,500,450,1,0.1,South,Credit Card,2024-01-03
+628,C0131,Mouse,Electronics,25,10,5,0.2,South,UPI,2023-09-01
+629,C0081,Jeans,Apparel,55,25,1,0.15,West,UPI,2024-12-02
+630,C0200,Watch,Accessories,100,40,1,0.0,East,Debit Card,2024-09-27
+631,C0115,Keyboard,Electronics,45,20,2,0.1,South,Debit Card,2023-10-29
+632,C0011,TV,Electronics,500,450,1,0.05,South,Credit Card,2024-01-22
+633,C0150,Shoes,Footwear,90,40,3,0.2,East,Debit Card,2023-06-14
+634,C0040,Jeans,Apparel,55,25,1,0.1,West,Debit Card,2023-02-10
+635,C0141,Headphones,Electronics,150,75,5,0.0,East,UPI,2024-08-09
+636,C0018,Headphones,Electronics,150,75,1,0.1,South,Debit Card,2024-06-17
+637,C0057,Watch,Accessories,100,40,2,0.15,West,Credit Card,2023-12-24
+638,C0193,Shirt,Apparel,30,12,3,0.1,East,Cash,2023-08-12
+639,C0089,Bag,Accessories,60,25,5,0.15,North,Credit Card,2024-11-15
+640,C0083,Keyboard,Electronics,45,20,2,0.2,South,Credit Card,2024-11-29
+641,C0133,Shoes,Footwear,90,40,1,0.15,East,Cash,2023-01-26
+642,C0076,Headphones,Electronics,150,75,5,0.2,West,UPI,2023-02-14
+643,C0198,Shirt,Apparel,30,12,3,0.2,North,Credit Card,2023-06-21
+644,C0162,Watch,Accessories,100,40,5,0.0,North,Debit Card,2024-11-17
+645,C0019,Shirt,Apparel,30,12,4,0.0,South,UPI,2024-10-24
+646,C0019,TV,Electronics,500,450,1,0.15,East,Credit Card,2023-03-31
+647,C0105,Laptop,Electronics,1000,800,2,0.1,North,Debit Card,2023-09-22
+648,C0100,Shoes,Footwear,90,40,4,0.15,West,Cash,2023-01-18
+649,C0019,Mouse,Electronics,25,10,5,0.0,North,Credit Card,2024-12-18
+650,C0023,Headphones,Electronics,150,75,5,0.0,East,Cash,2024-09-13
+651,C0041,Jeans,Apparel,55,25,4,0.15,West,Credit Card,2024-04-30
+652,C0037,Watch,Accessories,100,40,2,0.05,West,Cash,2024-10-11
+653,C0002,Jeans,Apparel,55,25,3,0.0,South,Credit Card,2023-02-12
+654,C0192,Bag,Accessories,60,25,5,0.15,North,Cash,2023-08-04
+655,C0057,Headphones,Electronics,150,75,2,0.15,South,Debit Card,2023-07-08
+656,C0146,Bag,Accessories,60,25,3,0.05,North,Debit Card,2024-11-18
+657,C0018,Laptop,Electronics,1000,800,5,0.15,North,Cash,2024-11-18
+658,C0033,Jeans,Apparel,55,25,1,0.05,West,Cash,2024-01-01
+659,C0125,Shirt,Apparel,30,12,1,0.1,North,Debit Card,2023-11-22
+660,C0146,Keyboard,Electronics,45,20,3,0.2,East,Debit Card,2024-08-02
+661,C0064,Headphones,Electronics,150,75,3,0.15,South,Credit Card,2023-11-17
+662,C0188,Shirt,Apparel,30,12,4,0.1,East,Debit Card,2024-11-26
+663,C0125,Headphones,Electronics,150,75,4,0.15,West,Cash,2023-11-09
+664,C0138,Watch,Accessories,100,40,1,0.05,North,Cash,2023-05-24
+665,C0162,Shirt,Apparel,30,12,3,0.0,North,Credit Card,2024-06-03
+666,C0142,Laptop,Electronics,1000,800,5,0.2,West,Debit Card,2023-02-07
+667,C0101,Jeans,Apparel,55,25,5,0.2,West,Debit Card,2024-01-10
+668,C0131,Shirt,Apparel,30,12,5,0.1,South,UPI,2024-05-28
+669,C0176,Mouse,Electronics,25,10,4,0.1,North,Debit Card,2024-09-20
+670,C0145,TV,Electronics,500,450,5,0.05,West,Debit Card,2023-07-03
+671,C0195,Bag,Accessories,60,25,2,0.15,East,Credit Card,2023-08-13
+672,C0011,Keyboard,Electronics,45,20,2,0.0,East,Cash,2023-08-28
+673,C0012,Shirt,Apparel,30,12,5,0.1,West,UPI,2024-04-10
+674,C0140,Laptop,Electronics,1000,800,3,0.0,East,Cash,2024-08-15
+675,C0168,Bag,Accessories,60,25,2,0.15,West,Cash,2024-08-24
+676,C0104,Mouse,Electronics,25,10,5,0.1,West,Debit Card,2024-06-12
+677,C0036,Headphones,Electronics,150,75,3,0.15,West,Credit Card,2024-05-28
+678,C0039,Keyboard,Electronics,45,20,2,0.05,North,Cash,2023-08-05
+679,C0085,TV,Electronics,500,450,2,0.1,North,Debit Card,2024-02-29
+680,C0042,Mouse,Electronics,25,10,4,0.15,West,Debit Card,2024-08-27
+681,C0152,Shoes,Footwear,90,40,1,0.05,North,Debit Card,2024-08-10
+682,C0043,TV,Electronics,500,450,2,0.2,North,Debit Card,2023-02-27
+683,C0073,Jeans,Apparel,55,25,2,0.2,West,Credit Card,2024-11-08
+684,C0057,Mouse,Electronics,25,10,2,0.15,West,UPI,2023-06-24
+685,C0186,Shoes,Footwear,90,40,5,0.05,South,Cash,2023-06-21
+686,C0099,Headphones,Electronics,150,75,4,0.2,North,Debit Card,2024-01-23
+687,C0156,TV,Electronics,500,450,1,0.0,South,UPI,2023-06-03
+688,C0124,Mouse,Electronics,25,10,2,0.15,North,Credit Card,2023-04-06
+689,C0108,TV,Electronics,500,450,5,0.2,North,UPI,2024-06-18
+690,C0197,Headphones,Electronics,150,75,1,0.2,West,Debit Card,2024-05-08
+691,C0066,Shoes,Footwear,90,40,3,0.2,North,UPI,2023-05-18
+692,C0049,Keyboard,Electronics,45,20,2,0.0,East,UPI,2023-09-21
+693,C0168,Laptop,Electronics,1000,800,1,0.2,North,Credit Card,2024-01-20
+694,C0110,Shirt,Apparel,30,12,3,0.15,East,Credit Card,2023-06-08
+695,C0071,Bag,Accessories,60,25,3,0.1,West,Cash,2024-09-18
+696,C0144,Shoes,Footwear,90,40,2,0.15,West,Debit Card,2024-01-15
+697,C0102,Watch,Accessories,100,40,4,0.1,East,Cash,2024-12-23
+698,C0055,TV,Electronics,500,450,1,0.05,West,Debit Card,2023-04-13
+699,C0163,Watch,Accessories,100,40,4,0.1,North,Debit Card,2024-02-03
+700,C0017,Laptop,Electronics,1000,800,1,0.05,West,UPI,2023-04-01
+701,C0103,Jeans,Apparel,55,25,2,0.1,North,Credit Card,2024-01-29
+702,C0127,Bag,Accessories,60,25,5,0.1,North,Debit Card,2024-10-17
+703,C0154,Keyboard,Electronics,45,20,1,0.05,East,Debit Card,2023-02-04
+704,C0062,Watch,Accessories,100,40,5,0.05,South,Credit Card,2024-01-04
+705,C0172,Laptop,Electronics,1000,800,2,0.0,East,UPI,2023-12-28
+706,C0018,Shoes,Footwear,90,40,4,0.2,South,Credit Card,2024-12-21
+707,C0058,Mouse,Electronics,25,10,5,0.1,East,Cash,2023-10-11
+708,C0045,Bag,Accessories,60,25,2,0.15,West,Credit Card,2023-09-25
+709,C0030,Shoes,Footwear,90,40,5,0.0,North,Cash,2023-12-15
+710,C0145,Watch,Accessories,100,40,3,0.2,East,UPI,2024-01-22
+711,C0008,Keyboard,Electronics,45,20,2,0.1,West,UPI,2024-08-23
+712,C0057,Keyboard,Electronics,45,20,1,0.1,North,UPI,2024-10-10
+713,C0068,Shirt,Apparel,30,12,3,0.15,East,Credit Card,2024-12-18
+714,C0142,Shirt,Apparel,30,12,3,0.0,West,Cash,2023-03-19
+715,C0069,TV,Electronics,500,450,4,0.1,East,Debit Card,2024-08-10
+716,C0068,TV,Electronics,500,450,2,0.15,South,Debit Card,2023-09-05
+717,C0200,Shirt,Apparel,30,12,2,0.05,South,Cash,2023-06-09
+718,C0011,Mouse,Electronics,25,10,1,0.0,West,Credit Card,2024-07-08
+719,C0071,Keyboard,Electronics,45,20,3,0.2,East,UPI,2024-08-11
+720,C0193,Keyboard,Electronics,45,20,2,0.2,East,UPI,2023-08-16
+721,C0009,Bag,Accessories,60,25,2,0.0,West,UPI,2024-07-07
+722,C0179,Watch,Accessories,100,40,3,0.15,South,UPI,2023-05-04
+723,C0054,Watch,Accessories,100,40,4,0.1,North,Credit Card,2024-11-21
+724,C0067,Shoes,Footwear,90,40,5,0.0,East,Cash,2024-09-19
+725,C0157,TV,Electronics,500,450,5,0.1,South,Cash,2024-04-27
+726,C0108,Headphones,Electronics,150,75,3,0.05,West,UPI,2023-08-04
+727,C0147,Headphones,Electronics,150,75,3,0.15,East,UPI,2023-07-04
+728,C0143,TV,Electronics,500,450,5,0.05,North,Cash,2023-08-30
+729,C0003,Shoes,Footwear,90,40,4,0.05,South,Debit Card,2024-04-29
+730,C0077,TV,Electronics,500,450,4,0.15,South,Cash,2024-05-13
+731,C0177,Jeans,Apparel,55,25,5,0.2,North,UPI,2023-04-12
+732,C0025,TV,Electronics,500,450,1,0.05,East,UPI,2024-10-06
+733,C0143,Keyboard,Electronics,45,20,3,0.1,East,Cash,2024-07-27
+734,C0174,Jeans,Apparel,55,25,3,0.0,West,Credit Card,2023-12-26
+735,C0084,Bag,Accessories,60,25,2,0.2,South,Cash,2023-12-30
+736,C0074,Watch,Accessories,100,40,4,0.15,North,UPI,2024-09-20
+737,C0157,Keyboard,Electronics,45,20,2,0.05,East,UPI,2024-10-08
+738,C0059,Bag,Accessories,60,25,4,0.0,North,Debit Card,2023-12-18
+739,C0114,Headphones,Electronics,150,75,3,0.1,East,UPI,2023-10-05
+740,C0048,Headphones,Electronics,150,75,5,0.2,West,UPI,2023-06-21
+741,C0043,Laptop,Electronics,1000,800,2,0.05,East,Credit Card,2023-08-04
+742,C0014,Shoes,Footwear,90,40,1,0.0,North,UPI,2024-07-15
+743,C0159,Laptop,Electronics,1000,800,4,0.2,North,Credit Card,2023-09-26
+744,C0189,TV,Electronics,500,450,1,0.15,East,Debit Card,2023-09-11
+745,C0009,Jeans,Apparel,55,25,4,0.05,South,Debit Card,2023-01-30
+746,C0114,Headphones,Electronics,150,75,3,0.15,West,Cash,2024-07-15
+747,C0164,TV,Electronics,500,450,5,0.05,West,UPI,2024-06-20
+748,C0114,Watch,Accessories,100,40,3,0.1,West,Debit Card,2023-04-02
+749,C0003,Jeans,Apparel,55,25,3,0.15,East,Debit Card,2023-11-07
+750,C0137,Laptop,Electronics,1000,800,5,0.05,East,Cash,2024-04-25
+751,C0075,Laptop,Electronics,1000,800,4,0.15,East,Credit Card,2024-03-16
+752,C0144,Bag,Accessories,60,25,2,0.0,East,Debit Card,2024-02-26
+753,C0057,Shoes,Footwear,90,40,4,0.05,South,UPI,2024-01-23
+754,C0167,Jeans,Apparel,55,25,1,0.15,South,Cash,2023-10-19
+755,C0035,Watch,Accessories,100,40,3,0.15,South,Credit Card,2023-07-06
+756,C0160,Jeans,Apparel,55,25,1,0.15,West,Cash,2024-12-18
+757,C0137,Keyboard,Electronics,45,20,2,0.1,North,Debit Card,2023-02-20
+758,C0184,Laptop,Electronics,1000,800,2,0.0,East,Cash,2023-05-09
+759,C0127,Keyboard,Electronics,45,20,1,0.05,North,Debit Card,2023-01-16
+760,C0119,Shirt,Apparel,30,12,3,0.15,East,UPI,2024-01-16
+761,C0199,Laptop,Electronics,1000,800,3,0.0,South,Credit Card,2023-09-30
+762,C0065,Shoes,Footwear,90,40,1,0.2,West,Debit Card,2023-07-16
+763,C0064,Shoes,Footwear,90,40,1,0.0,South,UPI,2024-03-29
+764,C0100,Laptop,Electronics,1000,800,2,0.15,North,Debit Card,2024-04-29
+765,C0124,Jeans,Apparel,55,25,3,0.05,North,Credit Card,2023-09-17
+766,C0061,Jeans,Apparel,55,25,2,0.1,North,Debit Card,2023-04-26
+767,C0031,Shoes,Footwear,90,40,3,0.0,South,Cash,2024-08-21
+768,C0153,Shoes,Footwear,90,40,2,0.0,North,UPI,2024-12-05
+769,C0024,TV,Electronics,500,450,3,0.0,South,Debit Card,2024-05-26
+770,C0040,Bag,Accessories,60,25,3,0.0,North,Cash,2024-10-22
+771,C0143,Watch,Accessories,100,40,1,0.05,West,Debit Card,2023-11-21
+772,C0186,Headphones,Electronics,150,75,4,0.05,North,UPI,2024-01-02
+773,C0076,TV,Electronics,500,450,3,0.0,West,UPI,2024-07-26
+774,C0188,Watch,Accessories,100,40,4,0.05,South,Cash,2023-11-28
+775,C0040,Keyboard,Electronics,45,20,3,0.2,South,Credit Card,2024-06-27
+776,C0199,Keyboard,Electronics,45,20,3,0.1,East,UPI,2023-01-01
+777,C0062,Watch,Accessories,100,40,4,0.05,North,Cash,2024-09-27
+778,C0175,Headphones,Electronics,150,75,1,0.2,West,Debit Card,2024-06-20
+779,C0165,Keyboard,Electronics,45,20,5,0.05,East,Cash,2024-02-24
+780,C0046,Headphones,Electronics,150,75,1,0.0,North,Credit Card,2023-05-13
+781,C0009,Laptop,Electronics,1000,800,2,0.0,West,Debit Card,2023-04-12
+782,C0057,Bag,Accessories,60,25,4,0.15,East,Credit Card,2024-01-11
+783,C0120,Bag,Accessories,60,25,1,0.0,South,UPI,2023-03-23
+784,C0015,Laptop,Electronics,1000,800,3,0.2,West,Cash,2024-12-26
+785,C0020,Bag,Accessories,60,25,3,0.2,North,Credit Card,2023-11-08
+786,C0099,Shirt,Apparel,30,12,5,0.0,North,Debit Card,2024-06-28
+787,C0192,Shirt,Apparel,30,12,2,0.2,South,Debit Card,2024-07-25
+788,C0171,Watch,Accessories,100,40,4,0.0,East,UPI,2024-12-20
+789,C0087,Shoes,Footwear,90,40,1,0.05,South,UPI,2024-05-31
+790,C0141,TV,Electronics,500,450,5,0.2,West,Cash,2023-11-19
+791,C0062,Headphones,Electronics,150,75,3,0.15,West,Cash,2024-09-15
+792,C0116,Bag,Accessories,60,25,5,0.05,West,Cash,2024-01-04
+793,C0005,Keyboard,Electronics,45,20,4,0.0,North,Cash,2024-09-02
+794,C0055,Watch,Accessories,100,40,2,0.1,North,Cash,2023-08-16
+795,C0118,Headphones,Electronics,150,75,1,0.1,South,Credit Card,2023-02-08
+796,C0064,Headphones,Electronics,150,75,2,0.05,East,Cash,2024-08-19
+797,C0056,Shirt,Apparel,30,12,3,0.1,North,UPI,2024-08-05
+798,C0180,Mouse,Electronics,25,10,3,0.15,South,UPI,2024-12-07
+799,C0098,Bag,Accessories,60,25,1,0.2,East,Credit Card,2024-08-13
+800,C0031,Mouse,Electronics,25,10,1,0.1,East,UPI,2024-03-02
+801,C0135,Shirt,Apparel,30,12,5,0.0,West,Credit Card,2023-11-09
+802,C0179,Laptop,Electronics,1000,800,3,0.2,South,Cash,2024-05-29
+803,C0148,Shirt,Apparel,30,12,2,0.0,West,UPI,2024-09-01
+804,C0038,Watch,Accessories,100,40,1,0.05,West,Cash,2024-02-08
+805,C0103,TV,Electronics,500,450,3,0.0,West,Credit Card,2024-07-15
+806,C0124,Jeans,Apparel,55,25,1,0.15,West,Debit Card,2023-05-19
+807,C0158,Watch,Accessories,100,40,2,0.15,West,Debit Card,2024-07-28
+808,C0083,Watch,Accessories,100,40,2,0.05,North,Cash,2024-03-16
+809,C0090,Bag,Accessories,60,25,1,0.0,West,UPI,2024-01-10
+810,C0090,Shirt,Apparel,30,12,3,0.1,North,Cash,2023-06-23
+811,C0060,Bag,Accessories,60,25,4,0.2,South,UPI,2023-02-15
+812,C0063,Shirt,Apparel,30,12,3,0.05,North,Credit Card,2023-02-25
+813,C0029,Bag,Accessories,60,25,2,0.1,North,Cash,2024-12-11
+814,C0190,Jeans,Apparel,55,25,4,0.15,North,Cash,2023-08-03
+815,C0187,Watch,Accessories,100,40,2,0.05,East,UPI,2024-09-29
+816,C0016,TV,Electronics,500,450,1,0.15,North,Cash,2023-06-24
+817,C0168,Jeans,Apparel,55,25,2,0.2,East,Credit Card,2024-04-21
+818,C0005,Laptop,Electronics,1000,800,1,0.15,East,Cash,2023-04-21
+819,C0125,Jeans,Apparel,55,25,4,0.05,West,Credit Card,2023-11-20
+820,C0118,Bag,Accessories,60,25,5,0.0,South,Debit Card,2024-05-27
+821,C0126,Watch,Accessories,100,40,1,0.0,South,Cash,2023-12-08
+822,C0161,Shoes,Footwear,90,40,2,0.0,East,Cash,2023-12-30
+823,C0066,Jeans,Apparel,55,25,2,0.2,East,Credit Card,2024-10-02
+824,C0088,Shoes,Footwear,90,40,1,0.2,East,Debit Card,2023-06-05
+825,C0062,Shoes,Footwear,90,40,2,0.0,West,Debit Card,2024-03-03
+826,C0139,Bag,Accessories,60,25,2,0.15,East,Cash,2024-04-04
+827,C0177,TV,Electronics,500,450,2,0.05,South,Debit Card,2023-11-13
+828,C0018,Watch,Accessories,100,40,2,0.15,South,Debit Card,2023-11-22
+829,C0187,Watch,Accessories,100,40,5,0.0,South,Cash,2023-05-30
+830,C0191,Laptop,Electronics,1000,800,3,0.15,West,Cash,2024-03-29
+831,C0007,Jeans,Apparel,55,25,2,0.05,North,Debit Card,2023-07-09
+832,C0176,Bag,Accessories,60,25,5,0.1,South,Debit Card,2023-08-25
+833,C0155,Laptop,Electronics,1000,800,3,0.0,West,Debit Card,2024-05-29
+834,C0036,Keyboard,Electronics,45,20,3,0.05,West,UPI,2024-04-30
+835,C0070,TV,Electronics,500,450,2,0.05,North,UPI,2023-01-16
+836,C0113,Shoes,Footwear,90,40,2,0.05,South,Credit Card,2023-07-01
+837,C0104,Bag,Accessories,60,25,4,0.1,West,Debit Card,2024-03-13
+838,C0191,Laptop,Electronics,1000,800,5,0.15,East,UPI,2024-09-18
+839,C0117,Bag,Accessories,60,25,5,0.2,North,Credit Card,2024-04-07
+840,C0100,Laptop,Electronics,1000,800,2,0.2,West,Credit Card,2024-07-25
+841,C0078,Watch,Accessories,100,40,1,0.05,East,UPI,2024-02-12
+842,C0014,Jeans,Apparel,55,25,4,0.05,West,Cash,2024-09-19
+843,C0029,Watch,Accessories,100,40,2,0.15,West,Credit Card,2024-05-27
+844,C0083,TV,Electronics,500,450,5,0.2,South,UPI,2024-02-28
+845,C0024,Keyboard,Electronics,45,20,1,0.05,West,Debit Card,2024-04-10
+846,C0181,Jeans,Apparel,55,25,3,0.05,North,Credit Card,2023-04-27
+847,C0141,Keyboard,Electronics,45,20,3,0.0,West,Debit Card,2024-01-23
+848,C0038,Shoes,Footwear,90,40,1,0.05,East,Debit Card,2023-06-16
+849,C0074,TV,Electronics,500,450,1,0.15,East,Cash,2024-04-01
+850,C0196,TV,Electronics,500,450,1,0.05,South,Credit Card,2024-09-29
+851,C0002,Jeans,Apparel,55,25,1,0.15,West,UPI,2024-07-10
+852,C0105,Bag,Accessories,60,25,4,0.05,South,UPI,2024-04-09
+853,C0072,Keyboard,Electronics,45,20,1,0.2,North,Debit Card,2024-07-14
+854,C0015,Bag,Accessories,60,25,5,0.05,North,Debit Card,2023-06-01
+855,C0023,Headphones,Electronics,150,75,1,0.05,North,Cash,2023-12-06
+856,C0073,Laptop,Electronics,1000,800,1,0.15,South,Debit Card,2024-11-19
+857,C0093,Bag,Accessories,60,25,5,0.2,South,UPI,2024-08-15
+858,C0018,Laptop,Electronics,1000,800,1,0.1,East,Cash,2024-01-24
+859,C0032,Shoes,Footwear,90,40,5,0.0,East,UPI,2023-05-18
+860,C0054,Jeans,Apparel,55,25,3,0.2,West,Debit Card,2024-12-13
+861,C0155,Bag,Accessories,60,25,1,0.0,North,UPI,2024-12-06
+862,C0148,Jeans,Apparel,55,25,4,0.2,East,Cash,2024-06-22
+863,C0047,Bag,Accessories,60,25,3,0.05,West,UPI,2024-05-19
+864,C0007,Bag,Accessories,60,25,2,0.1,South,Credit Card,2023-05-02
+865,C0086,Keyboard,Electronics,45,20,1,0.05,West,UPI,2023-02-16
+866,C0073,Headphones,Electronics,150,75,5,0.05,North,Debit Card,2024-12-07
+867,C0030,Jeans,Apparel,55,25,1,0.1,East,Cash,2023-01-07
+868,C0085,Headphones,Electronics,150,75,3,0.15,North,Debit Card,2023-07-18
+869,C0040,Headphones,Electronics,150,75,4,0.15,North,Debit Card,2024-05-08
+870,C0134,Keyboard,Electronics,45,20,5,0.1,West,UPI,2023-02-27
+871,C0176,Jeans,Apparel,55,25,5,0.1,North,Debit Card,2024-08-14
+872,C0087,Headphones,Electronics,150,75,3,0.0,South,Cash,2023-02-01
+873,C0030,Shoes,Footwear,90,40,5,0.05,West,Debit Card,2024-09-01
+874,C0128,Jeans,Apparel,55,25,3,0.0,East,UPI,2023-03-30
+875,C0078,Shirt,Apparel,30,12,3,0.15,East,Debit Card,2024-06-21
+876,C0114,TV,Electronics,500,450,1,0.1,North,Debit Card,2023-04-05
+877,C0124,Watch,Accessories,100,40,1,0.15,South,Debit Card,2023-12-15
+878,C0174,Watch,Accessories,100,40,3,0.1,South,Credit Card,2024-06-12
+879,C0134,TV,Electronics,500,450,2,0.0,West,UPI,2024-12-31
+880,C0120,Mouse,Electronics,25,10,1,0.1,North,Credit Card,2023-12-08
+881,C0195,Laptop,Electronics,1000,800,1,0.2,East,Credit Card,2024-08-14
+882,C0071,Jeans,Apparel,55,25,2,0.1,South,Debit Card,2023-10-21
+883,C0041,Watch,Accessories,100,40,3,0.15,North,Cash,2023-06-02
+884,C0090,Jeans,Apparel,55,25,1,0.0,North,Debit Card,2024-07-09
+885,C0063,Watch,Accessories,100,40,3,0.1,South,Cash,2024-08-10
+886,C0034,TV,Electronics,500,450,1,0.1,East,UPI,2023-02-21
+887,C0023,Laptop,Electronics,1000,800,4,0.0,North,UPI,2023-02-25
+888,C0086,Shoes,Footwear,90,40,4,0.05,West,Cash,2023-11-16
+889,C0179,Shirt,Apparel,30,12,5,0.0,West,Debit Card,2023-04-06
+890,C0060,Keyboard,Electronics,45,20,1,0.15,East,UPI,2024-04-26
+891,C0047,Shirt,Apparel,30,12,2,0.2,East,Cash,2024-02-06
+892,C0122,Headphones,Electronics,150,75,3,0.15,West,Credit Card,2023-03-08
+893,C0197,Mouse,Electronics,25,10,3,0.15,West,Debit Card,2023-10-17
+894,C0183,Headphones,Electronics,150,75,5,0.2,South,Credit Card,2024-02-20
+895,C0119,Mouse,Electronics,25,10,3,0.2,North,Cash,2024-06-29
+896,C0041,Shoes,Footwear,90,40,5,0.15,South,Debit Card,2024-07-15
+897,C0152,Keyboard,Electronics,45,20,4,0.0,East,Debit Card,2024-12-11
+898,C0170,Shoes,Footwear,90,40,4,0.2,East,Debit Card,2023-06-27
+899,C0143,Mouse,Electronics,25,10,5,0.15,North,UPI,2023-11-30
+900,C0154,Mouse,Electronics,25,10,4,0.05,East,UPI,2023-03-13
+901,C0170,Mouse,Electronics,25,10,5,0.15,East,UPI,2024-10-22
+902,C0170,Laptop,Electronics,1000,800,1,0.05,South,Credit Card,2023-05-31
+903,C0148,TV,Electronics,500,450,4,0.2,East,UPI,2024-09-22
+904,C0174,Keyboard,Electronics,45,20,2,0.05,East,Cash,2024-08-06
+905,C0131,Jeans,Apparel,55,25,4,0.1,North,Credit Card,2024-09-18
+906,C0014,Shoes,Footwear,90,40,2,0.1,North,Cash,2024-07-16
+907,C0061,Laptop,Electronics,1000,800,5,0.1,North,Cash,2023-02-01
+908,C0098,Shoes,Footwear,90,40,5,0.15,East,UPI,2024-02-20
+909,C0049,Shoes,Footwear,90,40,5,0.05,South,UPI,2023-05-23
+910,C0172,Watch,Accessories,100,40,4,0.1,West,Debit Card,2023-10-23
+911,C0185,TV,Electronics,500,450,2,0.0,North,Credit Card,2023-05-28
+912,C0107,Keyboard,Electronics,45,20,4,0.05,North,Debit Card,2024-10-19
+913,C0109,Keyboard,Electronics,45,20,5,0.15,South,UPI,2024-06-05
+914,C0109,Watch,Accessories,100,40,4,0.15,East,Debit Card,2023-07-10
+915,C0129,Bag,Accessories,60,25,1,0.2,West,Debit Card,2024-12-30
+916,C0146,Jeans,Apparel,55,25,4,0.2,East,Credit Card,2023-02-08
+917,C0187,Keyboard,Electronics,45,20,3,0.0,West,Credit Card,2023-05-26
+918,C0121,Watch,Accessories,100,40,3,0.15,North,Credit Card,2023-09-09
+919,C0137,Mouse,Electronics,25,10,5,0.2,East,Credit Card,2023-12-18
+920,C0091,Laptop,Electronics,1000,800,4,0.15,West,Cash,2024-03-07
+921,C0067,Jeans,Apparel,55,25,3,0.05,North,Cash,2024-07-31
+922,C0075,Laptop,Electronics,1000,800,4,0.2,South,Credit Card,2024-11-03
+923,C0130,Bag,Accessories,60,25,1,0.1,West,Credit Card,2023-05-10
+924,C0066,Mouse,Electronics,25,10,3,0.1,South,Cash,2023-10-09
+925,C0115,Laptop,Electronics,1000,800,1,0.2,South,Debit Card,2024-11-05
+926,C0136,Headphones,Electronics,150,75,2,0.1,South,UPI,2023-07-05
+927,C0193,Laptop,Electronics,1000,800,3,0.0,South,Debit Card,2024-05-22
+928,C0148,Shoes,Footwear,90,40,4,0.05,West,Debit Card,2023-08-04
+929,C0119,Headphones,Electronics,150,75,1,0.1,North,Credit Card,2023-06-21
+930,C0175,Shoes,Footwear,90,40,4,0.1,West,Debit Card,2024-01-24
+931,C0074,Shoes,Footwear,90,40,4,0.1,South,UPI,2023-01-13
+932,C0164,Keyboard,Electronics,45,20,4,0.1,North,Credit Card,2024-06-28
+933,C0069,Headphones,Electronics,150,75,4,0.2,East,Cash,2023-10-04
+934,C0192,Mouse,Electronics,25,10,3,0.2,West,UPI,2024-11-22
+935,C0141,Shirt,Apparel,30,12,5,0.05,East,Debit Card,2023-11-17
+936,C0135,Laptop,Electronics,1000,800,1,0.0,North,UPI,2023-04-11
+937,C0050,Mouse,Electronics,25,10,4,0.1,South,Cash,2023-09-15
+938,C0169,Laptop,Electronics,1000,800,1,0.2,North,Credit Card,2024-08-31
+939,C0034,Shirt,Apparel,30,12,5,0.0,North,Credit Card,2024-09-11
+940,C0076,Shoes,Footwear,90,40,5,0.05,North,Debit Card,2023-09-17
+941,C0171,Keyboard,Electronics,45,20,1,0.15,East,UPI,2024-12-09
+942,C0098,Headphones,Electronics,150,75,3,0.05,North,Cash,2023-03-05
+943,C0113,Shoes,Footwear,90,40,3,0.0,East,Cash,2023-07-02
+944,C0126,Mouse,Electronics,25,10,4,0.05,West,Debit Card,2024-10-22
+945,C0165,Mouse,Electronics,25,10,2,0.2,West,Debit Card,2024-09-20
+946,C0019,Mouse,Electronics,25,10,4,0.1,North,Credit Card,2023-03-16
+947,C0168,Bag,Accessories,60,25,3,0.15,North,UPI,2023-06-02
+948,C0085,Laptop,Electronics,1000,800,1,0.15,East,Debit Card,2024-12-17
+949,C0104,Shoes,Footwear,90,40,5,0.0,West,UPI,2024-03-22
+950,C0200,Mouse,Electronics,25,10,5,0.05,North,UPI,2024-12-06
+951,C0078,Keyboard,Electronics,45,20,1,0.2,East,Cash,2024-11-29
+952,C0118,Shoes,Footwear,90,40,1,0.0,East,Cash,2023-03-24
+953,C0049,Jeans,Apparel,55,25,2,0.05,North,UPI,2024-11-07
+954,C0162,Jeans,Apparel,55,25,4,0.0,East,UPI,2023-03-28
+955,C0185,Keyboard,Electronics,45,20,2,0.05,North,Debit Card,2023-01-26
+956,C0165,Bag,Accessories,60,25,2,0.15,West,Credit Card,2024-07-07
+957,C0087,Jeans,Apparel,55,25,4,0.2,West,Credit Card,2023-02-07
+958,C0168,Laptop,Electronics,1000,800,3,0.0,West,Credit Card,2023-08-05
+959,C0010,Watch,Accessories,100,40,4,0.2,South,Debit Card,2023-03-15
+960,C0180,TV,Electronics,500,450,4,0.0,West,Credit Card,2023-09-06
+961,C0117,TV,Electronics,500,450,1,0.05,North,Cash,2023-04-10
+962,C0128,Bag,Accessories,60,25,2,0.2,North,Credit Card,2023-04-27
+963,C0087,Bag,Accessories,60,25,5,0.05,North,Debit Card,2024-03-12
+964,C0196,Shoes,Footwear,90,40,3,0.0,South,Cash,2023-08-07
+965,C0071,Laptop,Electronics,1000,800,5,0.05,East,Credit Card,2023-05-04
+966,C0063,TV,Electronics,500,450,4,0.05,East,Debit Card,2024-03-25
+967,C0005,Bag,Accessories,60,25,1,0.05,North,UPI,2023-06-11
+968,C0181,Keyboard,Electronics,45,20,1,0.0,North,Debit Card,2023-04-02
+969,C0037,Bag,Accessories,60,25,3,0.15,West,Debit Card,2023-07-31
+970,C0157,Jeans,Apparel,55,25,5,0.15,West,Debit Card,2023-06-28
+971,C0078,Laptop,Electronics,1000,800,5,0.05,West,Credit Card,2024-10-04
+972,C0136,Headphones,Electronics,150,75,4,0.0,South,Debit Card,2023-05-01
+973,C0169,Mouse,Electronics,25,10,5,0.1,South,UPI,2024-10-03
+974,C0176,Shirt,Apparel,30,12,3,0.0,South,Credit Card,2023-06-02
+975,C0166,Keyboard,Electronics,45,20,4,0.05,South,Credit Card,2023-02-25
+976,C0158,Headphones,Electronics,150,75,3,0.05,West,Cash,2023-12-09
+977,C0008,Keyboard,Electronics,45,20,1,0.0,North,Debit Card,2023-06-11
+978,C0152,Keyboard,Electronics,45,20,5,0.0,North,Debit Card,2024-03-31
+979,C0200,Bag,Accessories,60,25,3,0.15,South,Cash,2023-08-24
+980,C0052,Mouse,Electronics,25,10,3,0.05,North,Debit Card,2024-02-27
+981,C0112,Shoes,Footwear,90,40,2,0.0,West,UPI,2023-02-25
+982,C0096,TV,Electronics,500,450,2,0.2,West,Debit Card,2024-02-01
+983,C0086,TV,Electronics,500,450,4,0.05,East,Cash,2023-07-27
+984,C0029,TV,Electronics,500,450,1,0.2,North,Cash,2023-05-20
+985,C0076,Keyboard,Electronics,45,20,4,0.15,South,Cash,2023-08-14
+986,C0106,Bag,Accessories,60,25,2,0.2,South,Debit Card,2023-03-30
+987,C0004,Watch,Accessories,100,40,4,0.05,West,UPI,2023-10-13
+988,C0057,Shoes,Footwear,90,40,2,0.05,East,UPI,2024-08-16
+989,C0011,Bag,Accessories,60,25,2,0.2,North,UPI,2023-02-15
+990,C0179,Keyboard,Electronics,45,20,5,0.0,West,UPI,2024-05-05
+991,C0193,Mouse,Electronics,25,10,4,0.15,South,Credit Card,2024-07-25
+992,C0062,Laptop,Electronics,1000,800,4,0.05,South,Cash,2023-10-30
+993,C0118,Mouse,Electronics,25,10,1,0.15,East,Debit Card,2024-12-21
+994,C0181,Bag,Accessories,60,25,5,0.0,West,UPI,2023-05-22
+995,C0019,Shoes,Footwear,90,40,2,0.1,West,Credit Card,2024-10-04
+996,C0193,Shoes,Footwear,90,40,3,0.2,North,Cash,2024-03-12
+997,C0086,Jeans,Apparel,55,25,5,0.2,South,Credit Card,2024-09-27
+998,C0094,Laptop,Electronics,1000,800,5,0.1,North,Credit Card,2024-01-28
+999,C0166,Keyboard,Electronics,45,20,5,0.0,East,Cash,2023-06-29
+1000,C0062,Watch,Accessories,100,40,1,0.2,South,Debit Card,2023-12-09
