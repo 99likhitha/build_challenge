@@ -235,5 +235,12 @@ pytest assignment2 -vv
 python assignment2/sales_analysis.py
 ```
 
+### Requirements
+- Python 3.8+
+- pandas
+- pytest
 
-
+### Install required packages manually :
+```bash
+pip install pandas pytest
+```
