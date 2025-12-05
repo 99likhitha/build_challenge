@@ -1,212 +1,239 @@
-Build Challenge – Assignments 1 & 2
+# Build Challenge – Assignments 1 and 2
 
-This repository contains two independent assignments demonstrating core competencies in concurrent programming, functional data processing, and analytical computation using Python. Both assignments include complete implementations and automated test suites using pytest.
+This repository contains two independent assignments demonstrating competencies in concurrent programming, functional programming, stream-style data operations, and analytical computation using Python. Both assignments include complete implementations and automated test suites using `pytest`.
 
-Assignment 1: Producer–Consumer Pattern
-Overview
+---
 
-This assignment implements a classic Producer–Consumer concurrency model using Python threads, condition variables, and a custom blocking buffer. The primary objectives are:
+## Assignment 1: Producer–Consumer Pattern
 
-Thread synchronization
+### Overview
+This assignment implements a classic producer–consumer concurrency model using Python threads, a custom blocking buffer, and condition variables. The goal is to demonstrate synchronized communication between producer and consumer threads.
 
-Concurrent producer and consumer execution
+---
 
-Blocking queue behavior
+### Objectives
+- Thread synchronization  
+- Concurrent producer and consumer execution  
+- Blocking queue behavior  
+- Wait/notify coordination  
+- Multi-producer and multi-consumer handling  
 
-Wait/notify coordination
+---
 
-Multi-producer and multi-consumer handling
+### Implementation Details
 
-The design follows standard concurrency principles and ensures safe communication between threads without deadlocks or race conditions.
+#### BlockingBuffer
+A custom FIFO blocking buffer built using `threading.Condition`.
 
-Implementation Summary
+Features:
+- Producers block when the buffer is full  
+- Consumers block when the buffer is empty  
+- Condition variable ensures correct wait/notify behavior  
+- Mutual exclusion for all operations  
+- Strict FIFO ordering  
 
-The solution provides the following components:
+#### Producer
+- Reads items from a source container  
+- Inserts items into the buffer  
+- Supports any number of concurrent producers  
 
-BlockingBuffer
+#### Consumer
+- Continuously consumes from the buffer  
+- Stops only when a sentinel value (`None`) is received  
+- Supports multiple concurrent consumers  
 
-A custom FIFO buffer implemented using threading.Condition.
-Key characteristics:
+---
 
-Threads block when the buffer is full or empty
-
-Mutual exclusion around shared state
-
-Controlled wake-up via notify_all
-
-Maintains strict FIFO ordering
-
-Producer
-
-Reads items from a source list
-
-Inserts items into the buffer
-
-Does not send sentinel values (clean separation of concerns)
-
-Supports any number of concurrent producers
-
-Consumer
-
-Continuously reads from the buffer
-
-Terminates only when it receives a sentinel (None)
-
-Supports multiple concurrent consumers
-
-Sentinel Dispatch
-
-A dedicated helper function ensures that termination signals equal the number of consumers, preventing early shutdown or indefinite blocking.
-
-Test Coverage
-
-The test suite validates the following behaviors:
-
-Basic producer–consumer data flow
-
-Blocking semantics when the buffer is full or empty
-
-Multiple producers writing concurrently
-
-Multiple consumers retrieving concurrently
-
-Handling of empty inputs
-
-Proper shutdown using sentinels
-
-Preservation of FIFO ordering
-
-How to Run
-
-From the project root:
-pytest assignment1 -vv
-
-
-Assignment 2: Functional Programming and Sales Data Analysis
-Overview
-
-This assignment demonstrates functional programming concepts, stream-style operations, and data aggregation techniques through analysis of a structured sales dataset. The solution uses a synthetic dataset of 1,000 records that reflects realistic attributes found in retail and financial domains.
-
-Primary objectives:
-
-Functional transformation pipelines
-
-Stream-like data operations
-
-Grouping and aggregation
-
-Lambda-based derived fields
-
-Analytical computation over a large dataset
-
-Dataset Description
-
-The dataset was generated to simulate realistic e-commerce transactions and includes the following fields:
-
-order_id: Unique transaction identifier
-
-customer_id: Customer reference
-
-product, category: Item classification
-
-price, cost: Pricing and margin inputs
-
-quantity: Units sold
-
-discount: Percentage discount applied
-
-region: Geographic segmentation
-
-payment_method: Transaction channel
-
-date: Transaction date (2023–2024 range)
-
-These fields support a wide range of analytical operations including revenue analysis, profitability assessment, customer segmentation, time-based trends, and category-level insights.
-
-Functional Programming Techniques
-
-The implementation uses Pandas to emulate functional programming and stream operations:
-
-Chained transformations using .assign()
-
-Lambda expressions for computed fields (revenue, profit, etc.)
-
-Vectorized operations without manual loops
-
-Declarative grouping and aggregation pipelines
-
-Stream-like flows resembling Java Streams (group → aggregate → sort → collect)
-
-Analytical Operations Implemented
-
-The analysis component provides the following capabilities:
-
-Total revenue computation
-
-Revenue grouped by category
-
-Revenue grouped by region
-
-Top-N products by revenue
-
-Monthly revenue, profit, quantity, and discount summary
-
-Percentage contribution by category
-
-Customer lifetime revenue
-
-Payment-method distribution
-
-Average profit by category
-
-These functions operate efficiently over the 1,000-row dataset.
-
-Test Coverage
-
-Automated tests validate:
-
-Structural correctness of outputs
-
-Positive revenue and profit metrics
-
-Grouping accuracy for category and region
-
-Ordering of top-N results
-
-Monthly summary field integrity
-
-Category contribution percentages summing to approximately 100%
-
-Customer-level aggregation
-
-Payment-method distribution across all records
-
-Category-level profit aggregations
-
-All tests pass successfully on the generated dataset.
-
-How to Run
-
-To execute the analysis tests:
-pytest assignment2 -vv
-
-Repository Structure : 
+#### File Structure
 assignment1/
     producer_consumer.py
     test_producer_consumer.py
 
+
+### Test Coverage
+The test suite verifies:
+- Basic producer–consumer flow  
+- Blocking behavior (full and empty buffer)  
+- Correct FIFO ordering  
+- Multiple producers generating concurrently  
+- Multiple consumers consuming concurrently  
+- Sentinel-based controlled shutdown  
+- Handling of empty input sources  
+
+---
+
+### Running Tests
+```bash
+pytest assignment1 -vv
+```
+
+
+
+# Assignment 2 – Sales Data Analysis Using Functional Programming
+
+This assignment demonstrates functional programming principles, stream-style transformations, data aggregation, and analytical computation using a realistic dataset of 1,000 retail sales records. The implementation leverages pandas to emulate Java Streams–style data processing using declarative and vectorized operations.
+
+---
+
+## 1. Overview
+
+The goal of this assignment is to process a structured CSV dataset using:
+
+- Functional pipelines  
+- Lambda expressions  
+- Grouping and aggregation  
+- Stream-style operations  
+- Declarative transformations  
+
+The analysis simulates real-world use cases such as revenue reporting, customer behavior modeling, profitability tracking, and category-level analytics.
+
+---
+
+## 2. Dataset Description
+
+A synthetic dataset with **1,000 retail transactions** was generated using `generate_csv.py`. Each record includes:
+
+- `order_id`  
+- `customer_id`  
+- `product`  
+- `category`  
+- `price`  
+- `cost`  
+- `quantity`  
+- `discount`  
+- `region`  
+- `payment_method`  
+- `date` (range: 2023–2024)  
+
+These fields support a wide range of analytical operations including profit analysis, contribution modeling, customer segmentation, and time-series trend evaluations.
+
+### Dataset Files
+- `sales_data_large.csv` – main dataset (1,000 rows)  
+- `generate_csv.py` – reproducible generator script  
+
+---
+
+## 3. Functional Programming Techniques Used
+
+This assignment heavily relies on functional programming patterns within pandas.
+
+### 3.1 Lambda Expressions
+Used inside transformation pipelines:
+- `revenue = price * quantity * (1 - discount)`  
+- `cost_total = cost * quantity`  
+- `profit = revenue - cost_total`  
+- Extraction of time-based fields (month, year, weekday)
+
+### 3.2 Chained Transformations
+Example pipeline:
+```python
+self.df.assign(
+    revenue=lambda x: x.price * x.quantity * (1 - x.discount),
+    cost_total=lambda x: x.cost * x.quantity,
+    profit=lambda x: x.revenue - x.cost_total,
+    month=lambda x: x.date.dt.to_period("M").astype(str)
+)
+```
+
+### 3.3 Stream-Style Operations
+
+Functional patterns mirroring Java Streams:
+
+- `groupby → agg → sort_values`
+- `value_counts(normalize=True)`
+- Transformation → filtering → aggregation → collection
+
+---
+
+### 3.4 Vectorized Operations
+
+All heavy computation is vectorized:
+
+- No loops  
+- No manual iteration  
+- No mutable intermediate state  
+
+---
+
+## 4. Analytical Features Implemented
+
+The `SalesAnalysis` class supports comprehensive analytics:
+
+### 4.1 Total Revenue
+```python
+total_revenue()
+```
+
+### 4.2 Revenue by Category
+```python
+revenue_by_category()
+```
+
+### 4.3 Revenue by Region
+```python
+revenue_by_region()
+```
+### 4.4 Top-N Products by Revenue
+```python
+top_n_products(n)
+```
+
+### 4.5 Monthly Summary (Revenue, Profit, Units, Discounts)
+Aggregates metrics by year-month, including:
+ 
+- Total Revenue
+- Total Profit
+- Units Sold
+- Discounts Applied
+
+### 4.6 Category Contribution (% of Total Revenue)
+```python
+category_contribution()
+```
+
+### 4.7 Customer Lifetime Revenue
+```python
+customer_lifetime_revenue()
+```
+
+### 4.8 Customer Lifetime Revenue
+
+### 4.9 Average Profit by Category
+```python
+avg_profit_by_category()
+```
+
+
+#### File Structure
 assignment2/
-    sales_data_large.csv
     sales_analysis.py
-    test_sales_analysis.py
+    sales_data_large.csv
     generate_csv.py
+    test_sales_analysis.py
+    README.md
 
-Conclusion
+### Test Coverage
+The test suite (test_sales_analysis.py) validates:
+- Revenue and profit calculations
+- Category and region aggregation accuracy
+- Correct ordering of Top-N products
+- Monthly time-series summary fields
+- Category contribution percentages
+- Customer lifetime revenue mapping
+- Payment method distribution
+- Profitability grouping 
 
-This repository demonstrates competencies across two important domains:
+---
 
-Concurrent system design using shared buffers, condition variables, and coordinated thread execution.
+### Running Tests
+```bash
+pytest assignment2 -vv
+```
 
-Functional programming and analytical data processing using pandas with stream-like transformation pipelines, complex aggregations, and reproducible computation.
+### Running the Analysis Manually
+```bash
+python assignment2/sales_analysis.py
+```
 
-Both solutions are fully tested and follow production-quality design standards suitable for modern engineering workflows.
+
+
